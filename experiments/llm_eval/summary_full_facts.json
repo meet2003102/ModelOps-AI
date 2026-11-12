@@ -1,0 +1,12 @@
+{
+  "tag": "full_facts",
+  "mode": "full",
+  "model_id": "20261112-110308-e11061",
+  "source": "llm:qwen2.5:3b",
+  "n_questions": 24,
+  "grounded_accuracy": 0.917,
+  "refusal_accuracy": 0.667,
+  "answers_with_unsupported_numbers": 0,
+  "mean_latency_s": 3.71,
+  "rescored": true
+}

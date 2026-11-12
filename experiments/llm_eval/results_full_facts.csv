@@ -1,0 +1,51 @@
+id,kind,question,expected,grounded_answer,grounded_correct,grounded_unsupported,latency_s,source
+1,text,Which algorithm was selected as the final model?,LightGBM,"The final model selected was LightGBM. It was chosen as the champion based on the selection metric of f1_macro, which had a value of 0.6763 in the latest test metrics. LightGBM is the only model listed in the leaderboard_cv with a rank of 1, indicating it was the top performer. No other models were mentioned in the selection process.",True,0,7.54,llm:qwen2.5:3b
+2,text,What is the target column the model predicts?,churn,"The model predicts the target column ""churn"".",True,0,2.71,llm:qwen2.5:3b
+3,text,Which metric was used to select the best model?,f1_macro,"The f1_macro metric was used to select the best model. The model with the highest f1_macro score of 0.7124 in the leaderboard CV is the LightGBM model, which is ranked first. LightGBM is identified as the champion model in the current scope.",True,0,3.5,llm:qwen2.5:3b
+4,number,What is the model's accuracy on the held-out test set?,0.68,The model's accuracy on the held-out test set is 68.0%. This value is directly provided in the test_metrics section of the FACTS.,True,0,3.08,llm:qwen2.5:3b
+5,number,What is the model's precision_macro on the held-out test set?,0.682,The model's precision_macro on the held-out test set is 0.682. This value is provided in the test_metrics section of the FACTS.,True,0,3.17,llm:qwen2.5:3b
+6,number,What is the model's recall_macro on the held-out test set?,0.6768,The model's recall_macro on the held-out test set is 0.6768. This value is provided in the test_metrics section of the FACTS.,True,0,3.05,llm:qwen2.5:3b
+7,number,What is the model's f1_macro on the held-out test set?,0.6763,The model's f1_macro on the held-out test set is 0.6763. This metric is provided in the test_metrics section of the FACTS.,True,0,3.21,llm:qwen2.5:3b
+8,number,What is the model's roc_auc on the held-out test set?,0.7799,The model's roc_auc on the held-out test set is 0.7799. This value is provided in the test_metrics section of the FACTS.,True,0,3.16,llm:qwen2.5:3b
+9,number,What is the model's pr_auc on the held-out test set?,0.7891,The model's PR AUC on the held-out test set is 0.7891. This value is provided in the test_metrics section of the FACTS.,True,0,3.17,llm:qwen2.5:3b
+10,number,What is the model's brier on the held-out test set?,0.2032,The model's brier score on the held-out test set is 0.2032. This score is provided in the test_metrics section of the FACTS.,True,0,3.2,llm:qwen2.5:3b
+11,text,Which model came second in cross-validation?,Baseline (majority),"The model came second in cross-validation. The model name is ""Baseline (majority)"". It achieved an f1_macro score of 0.3421 with a standard deviation of 0.0018. It was not tuned.",True,0,3.49,llm:qwen2.5:3b
+12,text,What is the most important feature?,internet_service,"The most important feature is ""signup_date"" with an importance share of 0.0981.
+
+It has the highest importance share among all features in the dataset.
+
+The feature ""signup_date"" has the largest PSI value of 2.5101, indicating significant data drift.
+
+The feature ""monthly_charges"" is the second most important with an importance share of 0.1035.
+
+The feature ""internet_service"" is the third most important with an importance share of 0.2359.
+
+The feature ""payment_method"" is the sixth most important with an importance share of 0.0438.",True,0,4.91,llm:qwen2.5:3b
+13,text,What is the second most important feature?,tenure_months,"The second most important feature is ""tenure_months"" with an importance share of 0.2285.",True,0,2.78,llm:qwen2.5:3b
+14,text,What is the third most important feature?,contract,"The third most important feature is ""contract"" with an importance share of 0.1578.",True,0,2.91,llm:qwen2.5:3b
+15,yesno,Was dataset-level data drift detected? Answer yes or no first.,True,"Yes, dataset-level data drift was detected. The data drift report indicates a dataset_drift of true, with a share_drifted of 0.5556. The largest PSI feature is 'signup_date' with a PSI value of 2.5101, classified as major severity.",True,0,3.61,llm:qwen2.5:3b
+16,text,Which drifted feature has the largest PSI?,signup_date,"The feature with the largest PSI is ""signup_date"", with a PSI value of 2.5101. This feature has a severity classified as ""major"".",True,0,3.06,llm:qwen2.5:3b
+17,number,What is the PSI of the feature signup_date?,2.5101,"The PSI of the feature signup_date is 2.5101. This feature has a severity classified as major in the data drift report. It is one of the most severely drifted features, with an importance share of 0.0981. The feature monthly_charges has the second highest PSI value at 0.2352, indicating it is also a majorly drifted feature. The data drift indicates that the input distribution for the signup_date feature has changed significantly compared to the reference dataset.",True,0,4.48,llm:qwen2.5:3b
+18,number,What is the PSI of the feature monthly_charges?,0.2352,"The PSI of the feature monthly_charges is 0.2352. This value is found in the data_drift section of the FACTS, under the ""drifted_features_sorted_by_psi"" list.",True,0,3.29,llm:qwen2.5:3b
+19,number,What is the PSI of the feature internet_service?,0.1734,"The feature internet_service has a PSI (Probability SimilariTy) of 0.2354. This feature has a moderate severity of drift, indicating that the distribution of this feature has changed significantly between the reference and current datasets. The importance share of internet_service is 0.2359, which is the proportion of the feature's importance in the model.",False,0,3.76,llm:qwen2.5:3b
+20,number,What is the PSI of the feature payment_method?,0.1581,The PSI of the feature payment_method is 0.1581. This feature has a moderate severity of drift according to the data drift report. It is ranked 4th among the features with the largest PSI values. The feature importance share is 0.0438. The data drift analysis compared a reference dataset of 600 rows to a current dataset of 1008 rows.,True,0,3.94,llm:qwen2.5:3b
+21,number,How many rows were in the current data used for the drift check?,1008,The current data used for the drift check had 1008 rows.,True,0,2.84,llm:qwen2.5:3b
+22,refusal,What was the model's accuracy last year?,,Not available in the current reports. The FACTS only cover the model version and its latest reports.,True,0,2.83,llm:qwen2.5:3b
+23,refusal,How much revenue did the model save the company?,,"Not available in the current reports. The FACTS do not provide information about the financial impact or revenue saved by the model. They focus on the model's performance metrics, feature importance, and data drift.",True,0,3.18,llm:qwen2.5:3b
+24,refusal,What is the model's performance on the Adult Census dataset?,,"The model's performance on the sample_churn dataset is as follows:
+- Accuracy: 68.00%
+- Precision (macro): 68.20%
+- Recall (macro): 67.69%
+- F1 (macro): 67.63%
+- ROC AUC: 77.99%
+- PR AUC: 78.91%
+- Brier Score: 20.32%
+
+The model is ranked 1st on the LightGBM algorithm in a cross-validation setup, with an F1 score of 71.24. The model is the champion for the f1_macro selection metric.
+
+Data drift is detected on the sample_churn dataset, with 55.56% of features showing significant drift. The features with the highest PSI values and severity are:
+- signup_date: PSI = 2.5101, Severity: Major, Importance Share: 9.81%
+- monthly_charges: PSI = 0.2352, Severity: Major, Importance Share: 10.35%
+- internet_service: PSI = 0.1734, Severity: Moderate, Importance Share: 23.59%
+- payment_method: PSI = 0.1581, Severity: Moderate, Importance Share: 4.38%
+- contract: PSI = 0.1408, Severity: Moderate, Importance Share: 15.78%",False,0,8.21,llm:qwen2.5:3b

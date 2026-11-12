@@ -1,0 +1,16 @@
+scenario,detector,adaptive,alarms,false_alarms,detection_rate,delay,post_drift_acc,recovery,overall_acc
+gradual,adwin,False,1.0,0.0,1.0,2377.667,0.831,,0.856
+gradual,adwin,True,1.0,0.0,1.0,2377.667,0.883,3710.667,0.88
+gradual,fixed_window,False,1.333,0.0,1.0,2151.333,0.831,,0.856
+gradual,fixed_window,True,1.333,0.0,1.0,2151.333,0.879,4320.667,0.878
+gradual,none,False,0.0,0.0,0.0,,0.831,,0.856
+stable,adwin,False,0.0,0.0,,,,,0.884
+stable,adwin,True,0.0,0.0,,,,,0.884
+stable,fixed_window,False,0.0,0.0,,,,,0.884
+stable,fixed_window,True,0.0,0.0,,,,,0.884
+stable,none,False,0.0,0.0,,,,,0.884
+sudden,adwin,False,1.0,0.0,1.0,824.0,0.831,,0.856
+sudden,adwin,True,1.0,0.0,1.0,824.0,0.875,2633.333,0.879
+sudden,fixed_window,False,1.333,0.0,1.0,977.667,0.831,,0.856
+sudden,fixed_window,True,1.667,0.0,1.0,977.667,0.876,2624.333,0.88
+sudden,none,False,0.0,0.0,0.0,,0.831,,0.856

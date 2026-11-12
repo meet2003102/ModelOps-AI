@@ -1,0 +1,11 @@
+venv/
+.venv/
+**/__pycache__/
+**/node_modules/
+frontend/dist/
+artifacts/
+*.egg-info/
+.git/
+experiments/drift/
+experiments/llm_eval/*.csv
+experiments/llm_eval/*.json

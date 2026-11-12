@@ -1,0 +1,14 @@
+{
+  "tag": "before",
+  "mode": "full (v1 prompt)",
+  "model_id": "20261112-110308-e11061",
+  "source": "llm:qwen2.5:3b",
+  "n_questions": 24,
+  "grounded_accuracy": 0.833,
+  "refusal_accuracy": 0.333,
+  "answers_with_unsupported_numbers": 0,
+  "mean_latency_s": 4.3,
+  "ungrounded_accuracy": 0.042,
+  "ungrounded_answers_with_unsupported_numbers": 0,
+  "rescored": true
+}

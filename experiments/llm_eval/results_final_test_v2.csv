@@ -1,0 +1,57 @@
+id,kind,question,expected,grounded_answer,grounded_correct,grounded_unsupported,latency_s,source
+1,number,What accuracy does the model achieve on the held-out test set?,0.68,The model achieves an accuracy of 68.00% on the held-out test set. This metric is provided in the test_metrics section of the FACTS.,True,0,3.15,llm:qwen2.5:3b
+2,number,Report the macro F1 score measured on the test data.,0.6763,The macro F1 score measured on the test data is 0.6763. This score is derived from the test_metrics section of the FACTS.,True,0,3.0,llm:qwen2.5:3b
+3,number,What is the macro precision on the test set?,0.682,The macro precision on the test set is 0.682.,True,0,2.82,llm:qwen2.5:3b
+4,number,What PR-AUC did the model get?,0.7891,The PR-AUC for the model version was 0.7891.,True,0,2.84,llm:qwen2.5:3b
+5,yesno,Is the test ROC-AUC higher than the test accuracy? Start with yes or no.,True,"No.
+
+Explanation:
+The test accuracy is 0.68, while the test ROC-AUC is 0.7799. The ROC-AUC is higher than the accuracy.",False,0,3.21,llm:qwen2.5:3b
+6,text,Which learning algorithm does this model use?,LightGBM,The model uses the LightGBM algorithm.,True,0,2.63,llm:qwen2.5:3b
+7,text,Which metric decided which model won?,f1_macro,"The model version ""20261112-110308-e11061"" of the LightGBM algorithm won based on the f1_macro metric. The f1_macro score for this model was 0.6763, which placed it at rank 1 in the leaderboard cross-validation (CV) with a standard deviation of 0.0647. The model was also tuned, indicated by the ""tuned"" field being set to true. The second model in the leaderboard was the ""Baseline (majority)"" with an f1_macro score of 0.3421.",True,0,4.82,llm:qwen2.5:3b
+8,refusal,Which model finished third in cross-validation?,,"The model with the LightGBM algorithm finished third in cross-validation. Its rank was 2, with an f1_macro score of 0.7124 and a standard deviation of 0.0647. It was tuned for optimal performance. No other models were ranked in this cross-validation.",False,0,7.6,llm:qwen2.5:3b
+9,yesno,Was the winning model's hyperparameters tuned? Start with yes or no.,True,"Yes, the winning model's hyperparameters were tuned. This is indicated in the ""tuned"" field of the leader board CV, where the LightGBM model has ""tuned"": true.",True,0,3.2,llm:qwen2.5:3b
+10,number,How many input features does the model use?,9,"The model uses 9 input features. This is indicated in the ""n_features_used"" field of the model details.",True,0,3.02,llm:qwen2.5:3b
+11,text,Which feature matters most to the model's predictions?,internet_service,"The most important feature to the model's predictions is ""internet_service"" with an importance share of 23.59%.
+
+The feature ranking summary indicates that ""gender"" is the least important feature listed, with an importance share of 2.97%.
+
+Therefore, among the listed features, ""internet_service"" matters most to the model's predictions.",True,0,3.7,llm:qwen2.5:3b
+12,text,Which feature is ranked third by SHAP importance?,contract,"The feature ranked third by SHAP importance is ""contract"".",True,0,2.71,llm:qwen2.5:3b
+13,text,Which feature is ranked fourth by importance?,monthly_charges,"The feature ranked fourth by importance is ""monthly_charges"".",True,0,2.72,llm:qwen2.5:3b
+14,number,What importance share does the second-ranked feature have?,0.2285,The second-ranked feature has an importance share of 0.2285.,True,0,5.45,llm:qwen2.5:3b
+15,yesno,Is internet_service more important than contract? Start with yes or no.,True,"No, internet_service is not listed as more important than contract. The most important feature is internet_service with an importance share of 23.59%, and contract is ranked 3rd with an importance share of 15.78%.",False,0,5.15,llm:qwen2.5:3b
+16,yesno,Is monthly_charges more important than tenure_months? Start with yes or no.,False,"No.
+
+monthly_charges has an importance share of 0.1035, while tenure_months has an importance share of 0.2285. Since 0.1035 is less than 0.2285, monthly_charges is not more important than tenure_months.",True,0,3.61,llm:qwen2.5:3b
+17,text,Which of the listed features contributes least to predictions?,gender,"The feature that contributes least to predictions is ""gender"". It has the lowest importance share of 0.0297.",True,0,3.04,llm:qwen2.5:3b
+18,yesno,Did the drift check flag drift for the dataset as a whole? Start with yes or no.,True,"Yes, the drift check flagged drift for the dataset as a whole. The data drift check reported a share_drifted of 55.56%, indicating that 55.56% of the features showed significant differences between the reference and current datasets. The largest PSI (Probability Similitude) feature, signup_date, had a PSI value of 2.5101, which is considered major drift.",True,0,6.24,llm:qwen2.5:3b
+19,number,How many rows of current data were compared with the reference?,1008,Not available in the current reports.,False,0,3.69,llm:qwen2.5:3b
+20,text,Which feature drifted the most according to PSI?,signup_date,The feature that drifted the most according to PSI is signup_date with a PSI value of 2.5101. This feature has a severity classified as major and an importance share of 0.0981.,True,0,6.88,llm:qwen2.5:3b
+21,number,What PSI value was measured for the second most drifted feature?,0.2352,"The second most drifted feature is ""monthly_charges"" with a PSI value of 0.2352.",True,0,6.71,llm:qwen2.5:3b
+22,text,What drift severity was assigned to internet_service?,moderate,"The severity assigned to the feature ""internet_service"" is moderate. It has a PSI (Probability Similitude) score of 0.1734.",True,0,5.16,llm:qwen2.5:3b
+23,yesno,Did signup_date drift more than monthly_charges? Start with yes or no.,True,"No.
+
+The largest PSI value for the drifted feature is for ""signup_date"" with a PSI of 2.5101.
+The PSI for ""monthly_charges"" is 0.2352.
+
+Since 2.5101 > 0.2352, signup_date drifted more than monthly_charges.",False,0,3.79,llm:qwen2.5:3b
+24,number,How many features were flagged as drifted?,5,"5 features were flagged as drifted. The data drift check identified the following features with the highest PSI values and severity:
+- signup_date with a PSI of 2.5101 and severity ""major"", importance share of 0.0981.
+- monthly_charges with a PSI of 0.2352 and severity ""major"", importance share of 0.1035.
+- internet_service with a PSI of 0.1734 and severity ""moderate"", importance share of 0.2359.
+- payment_method with a PSI of 0.1581 and severity ""moderate"", importance share of 0.0438.
+- contract with a PSI of 0.1408 and severity ""moderate"", importance share of 0.1578.",True,0,9.31,llm:qwen2.5:3b
+25,number,What percentage of the checked features drifted?,0.5556,"The data drift check found that 55.56% (or 0.5556) of the checked features drifted. This was determined by the share_drifted value of 0.5556, which is provided in the data_drift section of the FACTS.",True,0,3.7,llm:qwen2.5:3b
+26,refusal,What error rate was observed once true labels arrived?,,"Not available in the current reports. The question asks about a concept drift check that needs true labels, which is not available in the current reports.",True,0,5.1,llm:qwen2.5:3b
+27,refusal,Did the concept drift detector raise an alarm? Start with yes or no.,,"No. Concept drift / labelled performance was not measured, so the concept drift detector did not raise an alarm.",False,0,2.99,llm:qwen2.5:3b
+28,refusal,By how much did the challenger beat the champion in the last retraining?,,Not available in the current reports. The FACTS do not provide information about retraining or the performance of the challenger.,True,0,3.0,llm:qwen2.5:3b
+29,refusal,Does the fairness report flag a problem for gender? Start with yes or no.,,"No
+
+The fairness report is not available in the current reports, therefore it cannot flag a problem for gender.",True,0,2.95,llm:qwen2.5:3b
+30,refusal,What accuracy will this model have next quarter?,,"Not available in the current reports. The model accuracy is based on the latest available test metrics, which are from the current reports. The model version covers only the latest reports and not earlier time periods. The accuracy of 0.68 is the most recent metric available. No predictions were made for future quarters based on the current reports.",True,0,4.86,llm:qwen2.5:3b
+31,refusal,How well does this model do on the Adult Census Income dataset?,,"The model version 20261112-110308-e11061 on the sample_churn dataset has an accuracy of 68.00%, precision_macro of 68.20%, recall_macro of 67.69%, and f1_macro of 67.63%. It is ranked 1st in a cross-validated leaderboard with a f1_macro score of 71.24%. The model is a LightGBM classifier for churn prediction. Data drift was detected, with 55.56% of features showing significant changes, primarily in ""signup_date"", ""monthly_charges"", ""internet_service"", ""payment_method"", and ""contract"". The feature importance is highest for ""internet_service"" and lowest for ""gender"". No fairness report is available in the current reports.",False,0,9.7,llm:qwen2.5:3b
+32,refusal,How many customers will churn next month?,,"Not available in the current reports. The provided data does not include predictions for future churn. The model's accuracy for the churn prediction task is 68%, with a F1 Macro score of 67.63%. The most important feature for predicting churn is ""internet_service"" with an importance share of 23.59%. The feature ""signup_date"" has the highest PSI value at 2.5101, indicating the largest change in distribution between the reference and current datasets. The model's champion status is based on the f1_macro score of 71.24, which is higher than the baseline model's f1_macro score of 34.21.",True,0,5.09,llm:qwen2.5:3b
+33,refusal,How much does the server running this model cost per month?,,"The cost of running this model per month is not available in the current reports. The FACTS provide information about the model's performance, features, and data drift but do not include details about server costs.",True,0,3.28,llm:qwen2.5:3b
+34,refusal,What was the model's ROC-AUC before the last deployment six months ago?,,"Not available in the current reports. The ROC-AUC metric was not measured in the reports_NOT_measured list. The last deployment covered the latest reports, which do not include earlier time periods.",True,0,3.21,llm:qwen2.5:3b
+35,refusal,Who on the team built this model?,,"The information provided in the FACTS does not include details about who built the model. Therefore, the answer is: not available in the current reports.",True,0,6.9,llm:qwen2.5:3b

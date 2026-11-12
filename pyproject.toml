@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "modelops-ai"
+version = "0.1.0"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+include = ["ml_engine*", "llm_engine*", "backend*"]
+
+[tool.setuptools.package-data]
+llm_engine = ["prompt_templates/*.txt"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+filterwarnings = [
+  "ignore::sklearn.exceptions.UndefinedMetricWarning",
+  "ignore::DeprecationWarning",
+  "ignore:.*httpx.*",
+]

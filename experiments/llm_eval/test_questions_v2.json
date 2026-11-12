@@ -1,0 +1,41 @@
+[
+  {"question": "What accuracy does the model achieve on the held-out test set?", "kind": "number", "expected_fact": "test_metrics.accuracy"},
+  {"question": "Report the macro F1 score measured on the test data.", "kind": "number", "expected_fact": "test_metrics.f1_macro"},
+  {"question": "What is the macro precision on the test set?", "kind": "number", "expected_fact": "test_metrics.precision_macro"},
+  {"question": "What PR-AUC did the model get?", "kind": "number", "expected_fact": "test_metrics.pr_auc"},
+  {"question": "Is the test ROC-AUC higher than the test accuracy? Start with yes or no.", "kind": "yesno", "expected_compare": ["test_metrics.roc_auc", ">", "test_metrics.accuracy"]},
+  {"question": "Which learning algorithm does this model use?", "kind": "text", "expected_fact": "model.algorithm"},
+  {"question": "Which metric decided which model won?", "kind": "text", "expected_fact": "model.selection_metric"},
+  {"question": "Which model finished third in cross-validation?", "kind": "text", "expected_fact": "leaderboard_cv[2].model"},
+  {"question": "Was the winning model's hyperparameters tuned? Start with yes or no.", "kind": "yesno", "expected_fact": "leaderboard_cv[0].tuned"},
+  {"question": "How many input features does the model use?", "kind": "number", "expected_fact": "model.n_features_used"},
+
+  {"question": "Which feature matters most to the model's predictions?", "kind": "text", "expected_fact": "top_features[0].feature"},
+  {"question": "Which feature is ranked third by SHAP importance?", "kind": "text", "expected_fact": "top_features[2].feature"},
+  {"question": "Which feature is ranked fourth by importance?", "kind": "text", "expected_fact": "top_features[3].feature"},
+  {"question": "What importance share does the second-ranked feature have?", "kind": "number", "expected_fact": "top_features[1].importance_share"},
+  {"question": "Is {top_features[0].feature} more important than {top_features[2].feature}? Start with yes or no.", "kind": "yesno", "expected_compare": ["top_features[0].importance_share", ">", "top_features[2].importance_share"]},
+  {"question": "Is {top_features[3].feature} more important than {top_features[1].feature}? Start with yes or no.", "kind": "yesno", "expected_compare": ["top_features[3].importance_share", ">", "top_features[1].importance_share"]},
+  {"question": "Which of the listed features contributes least to predictions?", "kind": "text", "expected_fact": "top_features[-1].feature"},
+
+  {"question": "Did the drift check flag drift for the dataset as a whole? Start with yes or no.", "kind": "yesno", "expected_fact": "data_drift.dataset_drift"},
+  {"question": "How many rows of current data were compared with the reference?", "kind": "number", "expected_fact": "data_drift.n_current"},
+  {"question": "Which feature drifted the most according to PSI?", "kind": "text", "expected_fact": "data_drift.drifted_features_sorted_by_psi[0].feature"},
+  {"question": "What PSI value was measured for the second most drifted feature?", "kind": "number", "expected_fact": "data_drift.drifted_features_sorted_by_psi[1].psi"},
+  {"question": "What drift severity was assigned to {data_drift.drifted_features_sorted_by_psi[2].feature}?", "kind": "text", "expected_fact": "data_drift.drifted_features_sorted_by_psi[2].severity"},
+  {"question": "Did {data_drift.drifted_features_sorted_by_psi[0].feature} drift more than {data_drift.drifted_features_sorted_by_psi[1].feature}? Start with yes or no.", "kind": "yesno", "expected_compare": ["data_drift.drifted_features_sorted_by_psi[0].psi", ">", "data_drift.drifted_features_sorted_by_psi[1].psi"]},
+  {"question": "How many features were flagged as drifted?", "kind": "number", "expected_fact": "data_drift.n_drifted"},
+  {"question": "What percentage of the checked features drifted?", "kind": "number", "expected_fact": "data_drift.share_drifted"},
+
+  {"question": "What error rate was observed once true labels arrived?", "kind": "number", "expected_fact": "concept_drift.error_rate"},
+  {"question": "Did the concept drift detector raise an alarm? Start with yes or no.", "kind": "yesno", "expected_fact": "concept_drift.detected"},
+  {"question": "By how much did the challenger beat the champion in the last retraining?", "kind": "number", "expected_fact": "last_retraining.gain"},
+  {"question": "Does the fairness report flag a problem for gender? Start with yes or no.", "kind": "yesno", "expected_fact": "fairness.gender.flagged"},
+
+  {"question": "What accuracy will this model have next quarter?", "kind": "refusal"},
+  {"question": "How well does this model do on the Adult Census Income dataset?", "kind": "refusal"},
+  {"question": "How many customers will churn next month?", "kind": "refusal"},
+  {"question": "How much does the server running this model cost per month?", "kind": "refusal"},
+  {"question": "What was the model's ROC-AUC before the last deployment six months ago?", "kind": "refusal"},
+  {"question": "Who on the team built this model?", "kind": "refusal"}
+]

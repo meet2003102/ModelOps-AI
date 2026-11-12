@@ -1,0 +1,20 @@
+[
+  {"question": "What is the ROC-AUC score of this model on unseen test data?", "kind": "number", "expected_fact": "test_metrics.roc_auc"},
+  {"question": "Give me the model's Brier score.", "kind": "number", "expected_fact": "test_metrics.brier"},
+  {"question": "What macro recall did the model reach on the test set?", "kind": "number", "expected_fact": "test_metrics.recall_macro"},
+  {"question": "Name the two most influential features.", "kind": "text", "expected_fact": ["top_features[0].feature", "top_features[1].feature"]},
+  {"question": "Among the listed top features, which one has the lowest importance?", "kind": "text", "expected_fact": "top_features[-1].feature"},
+  {"question": "What importance share does {top_features[0].feature} have?", "kind": "number", "expected_fact": "top_features[0].importance_share"},
+  {"question": "Which algorithm was the runner-up in cross-validation?", "kind": "text", "expected_fact": "leaderboard_cv[1].model"},
+  {"question": "Which column does the model predict?", "kind": "text", "expected_fact": "model.target"},
+  {"question": "Which columns were removed before training?", "kind": "text", "expected_fact": "model.dropped_columns"},
+  {"question": "What fraction of the features showed drift?", "kind": "number", "expected_fact": "data_drift.share_drifted"},
+  {"question": "How many rows did the reference data for the drift check contain?", "kind": "number", "expected_fact": "data_drift.n_reference"},
+  {"question": "Is the drift in {data_drift.drifted_features_sorted_by_psi[0].feature} major, moderate or none?", "kind": "text", "expected_fact": "data_drift.drifted_features_sorted_by_psi[0].severity"},
+  {"question": "Has concept drift been detected for this model? Start with yes or no.", "kind": "yesno", "expected_fact": "concept_drift.detected"},
+  {"question": "Did the most recent retraining promote the challenger? Start with yes or no.", "kind": "yesno", "expected_fact": "last_retraining.promoted"},
+  {"question": "What will the model's accuracy be next month?", "kind": "refusal"},
+  {"question": "How does this model perform on the California Housing data?", "kind": "refusal"},
+  {"question": "How many rupees did it cost to train this model?", "kind": "refusal"},
+  {"question": "What F1 score did the model have in 2024?", "kind": "refusal"}
+]

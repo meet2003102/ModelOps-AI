@@ -1,0 +1,12 @@
+{
+  "tag": "heldout_focused",
+  "mode": "focused",
+  "model_id": "20261112-110308-e11061",
+  "source": "llm:qwen2.5:3b",
+  "n_questions": 18,
+  "grounded_accuracy": 0.778,
+  "refusal_accuracy": 0.833,
+  "answers_with_unsupported_numbers": 1,
+  "mean_latency_s": 4.33,
+  "rescored": true
+}

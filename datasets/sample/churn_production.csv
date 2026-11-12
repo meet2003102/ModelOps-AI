@@ -1,0 +1,1001 @@
+customer_id,gender,senior_citizen,tenure_months,contract,internet_service,payment_method,monthly_charges,total_charges,signup_date,churn
+20001,Male,0,68,Month-to-month,Fiber optic,Credit card,102.41,6963.88,2025-09-21,Yes
+20002,Female,1,45,Month-to-month,Fiber optic,Cash,104.61,4707.45,2021-07-31,No
+20003,Male,0,49,Month-to-month,Fiber optic,Credit card,51.16,2506.84,2021-07-08,Yes
+20004,Male,1,64,One year,Fiber optic,UPI,38.29,2450.56,2024-12-18,No
+20005,Male,0,41,Month-to-month,Fiber optic,Bank transfer,69.36,2843.76,2023-05-25,Yes
+20006,Male,1,55,Two year,No,Credit card,121.73,6695.15,2023-02-18,No
+20007,Female,1,60,Month-to-month,Fiber optic,UPI,18.0,1080.0,2025-11-10,No
+20008,Female,0,16,Month-to-month,Fiber optic,Credit card,95.8,1532.8,2024-10-28,Yes
+20009,Female,1,3,One year,DSL,UPI,47.73,143.19,2021-07-07,No
+20010,Male,0,21,Month-to-month,DSL,UPI,111.21,2335.41,2025-01-08,Yes
+20011,Female,0,20,Month-to-month,Fiber optic,Cash,47.66,953.2,2024-03-05,Yes
+20012,Female,0,62,Month-to-month,No,Credit card,71.44,4429.28,2024-06-18,Yes
+20013,Male,0,65,Month-to-month,Fiber optic,Credit card,34.81,2262.65,2022-02-11,No
+20014,Male,0,0,Month-to-month,No,Cash,50.68,0.0,2021-10-13,No
+20015,Male,0,35,Month-to-month,DSL,Bank transfer,121.58,4255.3,2023-08-02,Yes
+20016,Male,0,59,Month-to-month,Fiber optic,UPI,104.62,6172.58,2024-03-10,Yes
+20017,Female,1,9,Two year,Fiber optic,UPI,67.95,611.55,2024-09-18,No
+20018,Female,0,57,Month-to-month,Fiber optic,Credit card,53.89,3071.73,2023-02-28,Yes
+20019,Female,0,8,Month-to-month,Fiber optic,Credit card,23.19,185.52,2022-02-09,Yes
+20020,Female,0,33,Month-to-month,Fiber optic,Bank transfer,68.19,2250.27,2024-12-08,Yes
+20021,Male,1,58,Month-to-month,DSL,Bank transfer,79.07,4586.06,2025-07-05,No
+20022,Female,0,21,Month-to-month,Fiber optic,UPI,77.48,1627.08,2024-12-02,Yes
+20023,Female,0,24,Month-to-month,Fiber optic,Bank transfer,77.19,1852.56,2022-05-03,Yes
+20024,Male,0,20,Month-to-month,Fiber optic,Bank transfer,46.35,927.0,2023-11-22,Yes
+20025,Male,0,51,Month-to-month,Fiber optic,Credit card,78.01,3978.51,2026-04-06,Yes
+20026,Female,0,18,Month-to-month,DSL,Credit card,78.84,1419.12,2025-01-07,No
+20027,Male,1,71,Month-to-month,DSL,Cash,118.72,8429.12,2023-03-12,No
+20028,Male,0,32,Month-to-month,Fiber optic,Bank transfer,136.0,4352.0,2022-02-14,Yes
+20029,Female,0,34,One year,DSL,Bank transfer,75.89,2580.26,2023-07-24,No
+20030,Female,0,36,Month-to-month,DSL,Bank transfer,57.01,2052.36,2025-06-08,No
+20031,Female,1,41,Month-to-month,DSL,Credit card,78.05,3200.05,2022-10-08,No
+20032,Male,1,39,One year,Fiber optic,Bank transfer,61.77,2409.03,2026-03-11,Yes
+20033,Male,0,36,Month-to-month,Fiber optic,UPI,57.73,2078.28,2024-03-06,Yes
+20034,Female,0,71,Month-to-month,Fiber optic,Cash,78.24,5555.04,2025-11-08,No
+20035,Female,1,58,Month-to-month,Fiber optic,Bank transfer,48.7,2824.6,2022-06-08,No
+20036,Female,0,57,Month-to-month,No,Cash,98.18,5596.26,2025-06-01,No
+20037,Male,0,50,Month-to-month,Fiber optic,UPI,76.88,3844.0,2022-07-26,No
+20038,Male,0,44,One year,Fiber optic,Bank transfer,87.5,3850.0,2023-05-31,No
+20039,Male,0,24,One year,DSL,Bank transfer,74.51,1788.24,2022-05-09,No
+20040,Male,0,71,Month-to-month,No,Credit card,58.18,4130.78,2026-01-04,No
+20041,Male,0,33,Month-to-month,DSL,Bank transfer,51.56,1701.48,2024-03-02,Yes
+20042,Male,1,15,One year,Fiber optic,UPI,72.88,1093.2,2024-03-08,No
+20043,Female,0,60,Month-to-month,Fiber optic,Bank transfer,63.54,3812.4,2021-12-01,No
+20044,Female,0,11,Month-to-month,Fiber optic,Cash,87.02,957.22,2022-06-23,Yes
+20045,Female,0,61,One year,DSL,Cash,79.87,4872.07,2023-08-01,No
+20046,Male,0,44,One year,Fiber optic,Cash,39.13,1721.72,2024-02-02,No
+20047,Female,1,8,One year,DSL,Credit card,82.01,656.08,2021-12-07,No
+20048,Female,0,3,Month-to-month,Fiber optic,Cash,39.71,119.13,2025-08-10,Yes
+20049,Female,1,32,One year,Fiber optic,Bank transfer,61.51,1968.32,2023-11-20,Yes
+20050,Female,0,2,Month-to-month,Fiber optic,Cash,71.17,142.34,2024-10-03,Yes
+20051,Female,0,10,Month-to-month,Fiber optic,Bank transfer,18.0,180.0,2021-07-13,No
+20052,Male,0,37,Month-to-month,DSL,Bank transfer,82.75,3061.75,2025-07-09,No
+20053,Male,1,69,Month-to-month,Fiber optic,Bank transfer,84.53,5832.57,2022-02-25,No
+20054,Female,0,33,One year,Fiber optic,Cash,75.26,2483.58,2021-08-03,No
+20055,Female,0,58,One year,Fiber optic,Cash,67.27,3901.66,2024-02-18,No
+20056,Male,1,66,Month-to-month,No,Bank transfer,68.79,4540.14,2026-03-12,No
+20057,Male,0,59,Month-to-month,Fiber optic,UPI,50.7,2991.3,2026-04-24,No
+20058,Male,0,45,Month-to-month,DSL,Bank transfer,71.91,3235.95,2025-12-17,No
+20059,Female,0,31,Month-to-month,Fiber optic,Bank transfer,63.42,1966.02,2023-07-22,No
+20060,Male,1,37,Two year,Fiber optic,Cash,82.75,3061.75,2023-11-23,No
+20061,Female,0,19,Two year,Fiber optic,Cash,43.88,833.72,2023-06-14,Yes
+20062,Female,1,35,Two year,Fiber optic,Bank transfer,87.07,3047.45,2025-12-18,No
+20063,Male,0,27,Month-to-month,Fiber optic,UPI,84.3,2276.1,2026-01-16,Yes
+20064,Male,0,17,Month-to-month,No,Cash,75.75,1287.75,2022-04-24,No
+20065,Female,0,71,Month-to-month,Fiber optic,UPI,66.82,4744.22,2024-01-15,No
+20066,Female,0,0,Month-to-month,Fiber optic,Cash,96.57,0.0,2023-03-20,Yes
+20067,Female,0,6,Month-to-month,Fiber optic,Credit card,30.06,180.36,2025-02-22,Yes
+20068,Female,0,13,One year,Fiber optic,Credit card,93.81,1219.53,2022-04-01,Yes
+20069,Female,1,69,Month-to-month,Fiber optic,Bank transfer,87.29,6023.01,2023-07-22,No
+20070,Female,0,49,Month-to-month,Fiber optic,Cash,88.5,4336.5,2024-09-18,No
+20071,Female,1,63,Month-to-month,Fiber optic,UPI,91.5,5764.5,2025-12-01,Yes
+20072,Male,0,14,Month-to-month,Fiber optic,Credit card,60.39,845.46,2025-12-08,Yes
+20073,Female,0,51,Month-to-month,DSL,Credit card,72.22,3683.22,2025-03-05,No
+20074,Female,0,26,Month-to-month,Fiber optic,Credit card,99.11,2576.86,2026-01-02,No
+20075,Male,0,35,Month-to-month,Fiber optic,Credit card,92.92,3252.2,2021-12-11,Yes
+20076,Female,0,0,One year,Fiber optic,Cash,86.2,0.0,2021-10-22,Yes
+20077,Male,0,44,One year,Fiber optic,Bank transfer,34.57,1521.08,2023-06-06,No
+20078,Male,0,59,Month-to-month,Fiber optic,Cash,96.14,5672.26,2025-03-15,No
+20079,Male,0,47,Month-to-month,DSL,Cash,115.08,5408.76,2022-01-05,No
+20080,Male,1,11,Month-to-month,DSL,Cash,110.29,1213.19,2024-03-02,Yes
+20081,Female,0,38,One year,DSL,Bank transfer,87.02,3306.76,2025-11-20,No
+20082,Female,0,19,One year,Fiber optic,Cash,33.27,632.13,2022-07-03,No
+20083,Male,1,69,Month-to-month,Fiber optic,Bank transfer,108.28,7471.32,2023-05-07,No
+20084,Female,0,63,Month-to-month,Fiber optic,Cash,75.58,4761.54,2025-10-28,No
+20085,Male,1,13,Month-to-month,No,Credit card,18.0,234.0,2025-01-03,No
+20086,Male,0,36,Month-to-month,Fiber optic,Cash,91.32,3287.52,2024-01-08,No
+20087,Female,0,67,Month-to-month,Fiber optic,Credit card,35.23,2360.41,2021-10-09,No
+20088,Male,0,60,Month-to-month,Fiber optic,Bank transfer,41.11,2466.6,2021-08-15,No
+20089,Female,0,50,Month-to-month,No,UPI,60.95,3047.5,2023-11-10,No
+20090,Female,0,46,Month-to-month,DSL,UPI,118.18,5436.28,2023-04-08,No
+20091,Male,0,3,Month-to-month,Fiber optic,Credit card,68.87,206.61,2021-09-23,Yes
+20092,Male,0,53,Month-to-month,No,UPI,88.13,4670.89,2024-10-11,No
+20093,Male,0,34,Month-to-month,Fiber optic,Cash,132.44,4502.96,2026-04-15,Yes
+20094,Female,0,6,Month-to-month,No,Cash,127.82,766.92,2025-08-10,No
+20095,Female,0,17,Month-to-month,DSL,Bank transfer,76.9,1307.3,2023-02-14,Yes
+20096,Female,0,38,Month-to-month,DSL,Cash,72.75,2764.5,2022-05-25,No
+20097,Female,0,52,Month-to-month,Fiber optic,Bank transfer,42.17,2192.84,2023-02-22,No
+20098,Male,0,36,One year,Fiber optic,Bank transfer,59.17,2130.12,2024-05-01,No
+20099,Male,0,44,Month-to-month,Fiber optic,Credit card,92.76,4081.44,2025-03-30,No
+20100,Female,0,62,Month-to-month,No,Bank transfer,91.87,5695.94,2021-11-03,No
+20101,Male,0,49,Month-to-month,DSL,UPI,83.31,4082.19,2024-03-23,No
+20102,Female,1,26,One year,No,Bank transfer,109.84,2855.84,2025-11-28,No
+20103,Female,0,46,One year,Fiber optic,UPI,56.83,2614.18,2023-12-18,No
+20104,Female,0,43,One year,DSL,Bank transfer,78.32,3367.76,2021-06-18,No
+20105,Male,0,7,Month-to-month,DSL,Bank transfer,101.94,713.58,2022-02-26,Yes
+20106,Female,0,4,Month-to-month,Fiber optic,Bank transfer,97.52,390.08,2026-03-14,Yes
+20107,Male,0,47,Month-to-month,Fiber optic,Credit card,112.13,5270.11,2024-06-18,No
+20108,Female,0,27,Month-to-month,Fiber optic,Bank transfer,91.91,2481.57,2024-03-14,Yes
+20109,Female,0,43,Month-to-month,DSL,Credit card,70.72,3040.96,2024-03-31,No
+20110,Female,0,23,Month-to-month,DSL,UPI,90.87,2090.01,2025-02-13,No
+20111,Female,0,16,Month-to-month,DSL,Bank transfer,49.92,798.72,2023-07-09,No
+20112,Male,0,10,Month-to-month,Fiber optic,Bank transfer,30.82,308.2,2024-09-17,No
+20113,Male,0,27,Month-to-month,Fiber optic,UPI,97.42,2630.34,2023-07-18,No
+20114,Male,0,58,Month-to-month,Fiber optic,Bank transfer,78.35,4544.3,2023-11-28,No
+20115,Male,0,28,Month-to-month,Fiber optic,Cash,89.25,2499.0,2022-12-03,No
+20116,Female,0,27,One year,Fiber optic,Bank transfer,29.07,784.89,2023-07-29,No
+20117,Female,0,41,Month-to-month,DSL,Credit card,69.05,2831.05,2021-10-07,Yes
+20118,Male,1,70,Month-to-month,DSL,Credit card,62.0,4340.0,2022-06-10,No
+20119,Male,0,28,One year,No,UPI,54.07,1513.96,2021-07-10,No
+20120,Female,0,42,Month-to-month,Fiber optic,UPI,18.0,756.0,2022-10-29,No
+20121,Male,0,31,Month-to-month,No,Cash,69.95,2168.45,2022-08-12,Yes
+20122,Female,0,43,Month-to-month,Fiber optic,Bank transfer,106.92,4597.56,2021-11-17,Yes
+20123,Female,0,32,Month-to-month,DSL,Cash,91.43,2925.76,2026-03-23,No
+20124,Female,0,45,Month-to-month,DSL,UPI,61.97,2788.65,2022-09-26,No
+20125,Female,0,39,Month-to-month,DSL,Bank transfer,79.55,3102.45,2024-12-13,Yes
+20126,Female,0,48,Month-to-month,Fiber optic,Cash,102.7,4929.6,2024-08-21,No
+20127,Female,0,68,Month-to-month,Fiber optic,UPI,18.0,1224.0,2021-11-21,No
+20128,Female,0,10,Month-to-month,Fiber optic,UPI,76.26,762.6,2024-02-18,No
+20129,Male,0,40,Month-to-month,Fiber optic,Bank transfer,96.3,3852.0,2024-06-14,Yes
+20130,Female,0,31,Month-to-month,Fiber optic,Cash,100.46,3114.26,2024-03-18,Yes
+20131,Male,0,25,Month-to-month,DSL,Cash,131.02,3275.5,2024-09-10,No
+20132,Female,0,17,Month-to-month,Fiber optic,Credit card,114.05,1938.85,2024-01-09,Yes
+20133,Female,0,3,Month-to-month,No,Credit card,89.38,268.14,2025-09-10,Yes
+20134,Female,0,28,Month-to-month,DSL,Cash,89.06,2493.68,2026-01-28,Yes
+20135,Female,0,59,Two year,Fiber optic,Bank transfer,103.61,6112.99,2024-11-11,No
+20136,Male,0,6,Month-to-month,Fiber optic,UPI,63.82,382.92,2025-08-09,Yes
+20137,Female,0,29,Month-to-month,Fiber optic,UPI,78.79,2284.91,2023-05-03,Yes
+20138,Male,0,69,Month-to-month,Fiber optic,UPI,107.19,7396.11,2022-09-19,No
+20139,Female,0,68,Month-to-month,Fiber optic,Cash,138.72,9432.96,2025-10-21,Yes
+20140,Female,0,15,Month-to-month,Fiber optic,Bank transfer,75.22,1128.3,2024-02-28,No
+20141,Female,0,0,Month-to-month,No,Cash,78.55,0.0,2026-04-11,No
+20142,Male,0,48,Month-to-month,Fiber optic,Cash,85.95,4125.6,2026-03-10,No
+20143,Male,1,1,Month-to-month,DSL,Bank transfer,120.3,120.3,2023-08-27,Yes
+20144,Female,0,21,One year,DSL,Credit card,79.09,1660.89,2022-09-25,No
+20145,Male,0,35,Month-to-month,Fiber optic,Credit card,124.08,4342.8,2022-06-13,Yes
+20146,Male,0,62,Month-to-month,Fiber optic,Credit card,51.0,3162.0,2024-11-14,No
+20147,Female,0,6,Month-to-month,DSL,Bank transfer,74.42,446.52,2021-10-03,Yes
+20148,Female,1,47,Month-to-month,Fiber optic,Bank transfer,74.06,3480.82,2024-08-09,No
+20149,Male,1,38,Month-to-month,Fiber optic,Credit card,103.6,3936.8,2022-11-18,Yes
+20150,Male,1,9,Two year,Fiber optic,Credit card,111.36,1002.24,2024-09-18,Yes
+20151,Female,0,60,Month-to-month,DSL,Cash,34.72,2083.2,2022-11-22,No
+20152,Female,0,60,Month-to-month,Fiber optic,Credit card,52.55,3153.0,2024-02-27,No
+20153,Female,0,34,Month-to-month,Fiber optic,UPI,90.11,3063.74,2026-04-03,Yes
+20154,Female,0,68,Month-to-month,DSL,Bank transfer,60.24,4096.32,2025-01-24,No
+20155,Male,0,43,Two year,No,UPI,34.33,1476.19,2021-12-14,No
+20156,Female,0,65,Two year,Fiber optic,Credit card,111.15,7224.75,2023-04-07,No
+20157,Female,0,69,Month-to-month,DSL,Credit card,94.82,6542.58,2024-01-21,No
+20158,Male,1,41,Month-to-month,Fiber optic,UPI,94.8,3886.8,2026-01-12,No
+20159,Male,0,20,Month-to-month,No,Bank transfer,65.74,1314.8,2024-01-15,Yes
+20160,Male,0,10,Month-to-month,Fiber optic,Cash,110.87,1108.7,2024-03-17,Yes
+20161,Male,0,40,Month-to-month,Fiber optic,UPI,72.8,2912.0,2022-12-29,No
+20162,Female,0,13,One year,DSL,UPI,112.89,1467.57,2023-01-30,No
+20163,Male,0,54,One year,Fiber optic,Credit card,52.65,2843.1,2023-08-23,No
+20164,Male,0,66,Month-to-month,Fiber optic,Cash,54.38,3589.08,2024-07-25,No
+20165,Female,0,17,Month-to-month,Fiber optic,Cash,86.14,1464.38,2025-02-14,Yes
+20166,Male,0,39,Month-to-month,No,Cash,58.93,2298.27,2024-10-16,No
+20167,Male,0,3,Month-to-month,No,Credit card,100.26,300.78,2022-07-18,Yes
+20168,Female,0,12,Month-to-month,Fiber optic,Credit card,87.8,1053.6,2025-12-11,Yes
+20169,Male,0,27,Month-to-month,Fiber optic,UPI,52.31,1412.37,2024-10-11,No
+20170,Female,1,63,Month-to-month,DSL,Cash,82.19,5177.97,2024-07-19,No
+20171,Female,0,69,One year,Fiber optic,Bank transfer,69.46,4792.74,2025-08-17,No
+20172,Male,0,46,Month-to-month,DSL,UPI,107.47,4943.62,2023-12-28,No
+20173,Female,0,42,Month-to-month,DSL,Bank transfer,61.02,2562.84,2025-07-16,Yes
+20174,Female,0,41,Month-to-month,DSL,Bank transfer,66.82,2739.62,2023-02-26,No
+20175,Male,0,4,Two year,Fiber optic,UPI,116.34,465.36,2026-02-18,No
+20176,Female,0,27,Month-to-month,Fiber optic,Credit card,140.0,3780.0,2023-07-06,Yes
+20177,Male,0,70,Month-to-month,Fiber optic,Bank transfer,139.97,9797.9,2024-08-16,No
+20178,Male,0,29,Month-to-month,DSL,Credit card,81.9,2375.1,2022-10-29,No
+20179,Male,0,15,Month-to-month,DSL,UPI,86.57,1298.55,2024-06-29,Yes
+20180,Female,0,17,Month-to-month,Fiber optic,Cash,126.0,2142.0,2024-06-21,Yes
+20181,Male,1,51,One year,Fiber optic,Cash,76.27,3889.77,2022-01-02,No
+20182,Female,0,2,Month-to-month,Fiber optic,UPI,50.71,101.42,2025-08-29,Yes
+20183,Female,0,69,Month-to-month,Fiber optic,UPI,83.51,5762.19,2025-02-24,No
+20184,Female,1,63,Month-to-month,Fiber optic,Cash,93.55,5893.65,2024-05-03,No
+20185,Female,0,40,One year,Fiber optic,Credit card,55.13,2205.2,2024-11-26,No
+20186,Male,0,33,Month-to-month,Fiber optic,UPI,30.61,1010.13,2022-06-01,No
+20187,Male,0,54,Month-to-month,DSL,Credit card,36.9,1992.6,2024-12-01,No
+20188,Female,1,39,One year,DSL,Bank transfer,99.96,3898.44,2021-08-05,Yes
+20189,Male,0,34,Month-to-month,Fiber optic,Credit card,57.25,1946.5,2022-05-31,Yes
+20190,Female,0,23,Month-to-month,DSL,Credit card,75.76,1742.48,2025-09-28,No
+20191,Male,0,32,Month-to-month,Fiber optic,Credit card,86.38,2764.16,2026-04-19,Yes
+20192,Male,1,54,Month-to-month,Fiber optic,Bank transfer,98.57,5322.78,2022-11-14,No
+20193,Male,0,3,Month-to-month,Fiber optic,Credit card,69.95,209.85,2025-02-25,Yes
+20194,Female,0,1,One year,Fiber optic,Cash,94.96,94.96,2024-10-22,No
+20195,Male,0,51,Month-to-month,Fiber optic,Cash,53.3,2718.3,2025-03-08,No
+20196,Male,0,26,Month-to-month,Fiber optic,Cash,69.15,1797.9,2026-01-27,Yes
+20197,Female,0,57,Month-to-month,Fiber optic,UPI,49.27,2808.39,2022-12-06,Yes
+20198,Female,0,2,Month-to-month,Fiber optic,UPI,113.95,227.9,2026-01-17,Yes
+20199,Male,0,65,Month-to-month,Fiber optic,Cash,79.19,5147.35,2024-01-28,Yes
+20200,Female,0,8,Month-to-month,Fiber optic,Credit card,57.82,462.56,2024-02-24,Yes
+20201,Male,0,29,Month-to-month,Fiber optic,Bank transfer,69.43,2013.47,2023-09-27,Yes
+20202,Female,0,69,Month-to-month,Fiber optic,Credit card,73.35,5061.15,2025-11-30,No
+20203,Male,1,7,Month-to-month,No,Bank transfer,101.02,707.14,2026-01-23,Yes
+20204,Female,0,47,One year,Fiber optic,Bank transfer,32.13,1510.11,2023-05-26,No
+20205,Female,0,52,Month-to-month,Fiber optic,UPI,48.88,2541.76,2022-02-01,No
+20206,Male,0,30,Month-to-month,Fiber optic,UPI,68.66,2059.8,2026-01-19,No
+20207,Male,1,5,Month-to-month,Fiber optic,Bank transfer,140.0,700.0,2022-02-06,Yes
+20208,Male,0,37,Month-to-month,Fiber optic,Cash,108.67,4020.79,2024-10-04,Yes
+20209,Female,0,31,Month-to-month,DSL,Cash,76.66,2376.46,2023-04-20,No
+20210,Female,1,62,Month-to-month,Fiber optic,Cash,101.36,6284.32,2021-10-23,No
+20211,Male,0,49,Month-to-month,Fiber optic,UPI,140.0,6860.0,2026-03-10,No
+20212,Male,0,24,Month-to-month,DSL,Cash,72.99,1751.76,2025-06-01,Yes
+20213,Male,0,4,Two year,Fiber optic,Credit card,69.01,276.04,2023-01-31,Yes
+20214,Male,0,42,One year,Fiber optic,UPI,116.36,4887.12,2022-03-17,Yes
+20215,Female,0,20,Month-to-month,No,Cash,94.83,1896.6,2024-05-27,No
+20216,Male,0,49,Month-to-month,Fiber optic,UPI,100.14,4906.86,2026-04-30,Yes
+20217,Female,1,62,Month-to-month,Fiber optic,Bank transfer,64.75,4014.5,2022-09-29,No
+20218,Female,0,25,Month-to-month,No,Cash,137.73,3443.25,2021-08-28,Yes
+20219,Female,0,65,Two year,Fiber optic,Cash,131.29,8533.85,2022-03-05,Yes
+20220,Male,0,37,Month-to-month,Fiber optic,Bank transfer,96.98,3588.26,2025-02-22,Yes
+20221,Male,0,38,Month-to-month,Fiber optic,Credit card,100.53,3820.14,2025-12-26,Yes
+20222,Female,1,55,Month-to-month,Fiber optic,UPI,19.18,1054.9,2022-03-02,No
+20223,Female,1,56,Month-to-month,Fiber optic,Credit card,99.13,5551.28,2021-06-25,No
+20224,Female,0,65,Month-to-month,DSL,UPI,74.18,4821.7,2024-01-29,Yes
+20225,Male,0,71,Two year,Fiber optic,Credit card,93.02,6604.42,2024-01-24,No
+20226,Female,0,10,Month-to-month,DSL,UPI,100.47,1004.7,2023-04-01,Yes
+20227,Male,0,29,Month-to-month,Fiber optic,Bank transfer,69.76,2023.04,2022-05-20,Yes
+20228,Female,0,67,Month-to-month,No,Bank transfer,29.29,1962.43,2025-09-23,No
+20229,Male,0,22,One year,DSL,Credit card,91.04,2002.88,2025-07-13,No
+20230,Female,1,0,Month-to-month,DSL,Bank transfer,57.76,0.0,2022-10-07,No
+20231,Male,1,41,Month-to-month,DSL,Cash,70.09,2873.69,2022-06-10,No
+20232,Male,0,54,One year,No,Credit card,61.86,3340.44,2024-12-18,No
+20233,Female,0,53,Two year,DSL,Bank transfer,69.75,3696.75,2023-06-15,No
+20234,Male,0,58,Two year,Fiber optic,Cash,18.0,1044.0,2026-01-18,No
+20235,Male,0,46,One year,Fiber optic,UPI,116.51,5359.46,2025-09-12,No
+20236,Female,1,9,Month-to-month,DSL,Bank transfer,87.6,788.4,2021-09-24,Yes
+20237,Male,0,60,Month-to-month,DSL,UPI,113.34,6800.4,2022-10-29,No
+20238,Female,1,30,Month-to-month,Fiber optic,Bank transfer,139.4,4182.0,2024-12-07,Yes
+20239,Female,0,61,Month-to-month,DSL,Credit card,80.68,4921.48,2021-09-08,No
+20240,Female,1,58,Two year,Fiber optic,Credit card,25.93,1503.94,2021-10-29,No
+20241,Female,0,69,Month-to-month,Fiber optic,UPI,53.18,3669.42,2022-09-09,No
+20242,Female,0,1,Month-to-month,DSL,Credit card,43.79,43.79,2025-04-02,Yes
+20243,Male,0,62,Month-to-month,DSL,Bank transfer,64.94,4026.28,2026-03-16,No
+20244,Male,0,45,Month-to-month,Fiber optic,Credit card,82.39,3707.55,2025-08-21,Yes
+20245,Female,0,34,Month-to-month,Fiber optic,UPI,19.93,677.62,2022-07-23,No
+20246,Male,0,57,Month-to-month,Fiber optic,Cash,90.27,5145.39,2022-02-06,No
+20247,Female,0,68,One year,Fiber optic,UPI,34.69,2358.92,2022-04-20,No
+20248,Female,1,36,Month-to-month,Fiber optic,Credit card,88.92,3201.12,2025-10-09,Yes
+20249,Female,1,6,Month-to-month,No,UPI,76.72,460.32,2024-11-05,No
+20250,Female,0,52,One year,Fiber optic,UPI,70.59,3670.68,2023-07-29,No
+20251,Female,0,16,One year,Fiber optic,Cash,77.81,1244.96,2024-02-03,Yes
+20252,Male,0,16,Month-to-month,Fiber optic,Credit card,63.81,1020.96,2022-12-08,Yes
+20253,Female,1,13,One year,Fiber optic,Cash,61.63,801.19,2024-12-22,No
+20254,Male,0,14,Two year,Fiber optic,Cash,29.52,413.28,2026-03-04,No
+20255,Male,0,65,Month-to-month,Fiber optic,Bank transfer,79.11,5142.15,2024-08-13,No
+20256,Male,1,26,Month-to-month,Fiber optic,Bank transfer,135.37,3519.62,2023-04-23,Yes
+20257,Male,0,7,Two year,Fiber optic,Cash,139.41,975.87,2022-10-24,No
+20258,Male,0,12,Two year,DSL,UPI,119.65,1435.8,2022-06-13,No
+20259,Female,0,28,Month-to-month,Fiber optic,Bank transfer,101.17,2832.76,2025-03-07,No
+20260,Male,0,24,Month-to-month,Fiber optic,Credit card,59.71,1433.04,2023-01-15,No
+20261,Female,0,22,One year,Fiber optic,Bank transfer,123.28,2712.16,2023-09-11,Yes
+20262,Male,0,68,Month-to-month,Fiber optic,Credit card,78.32,5325.76,2025-11-15,No
+20263,Male,1,62,Month-to-month,No,Cash,77.93,4831.66,2026-02-11,No
+20264,Male,0,41,Month-to-month,Fiber optic,UPI,71.26,2921.66,2026-04-07,Yes
+20265,Female,0,71,Month-to-month,DSL,Cash,82.76,5875.96,2021-06-17,No
+20266,Male,1,24,Two year,Fiber optic,Cash,66.94,1606.56,2023-08-29,No
+20267,Female,0,9,Month-to-month,Fiber optic,Cash,77.49,697.41,2023-05-07,Yes
+20268,Male,0,19,Month-to-month,Fiber optic,Cash,47.46,901.74,2023-11-06,No
+20269,Male,1,6,Month-to-month,Fiber optic,UPI,68.79,412.74,2023-12-13,No
+20270,Male,0,68,Month-to-month,Fiber optic,UPI,140.0,9520.0,2024-05-12,No
+20271,Female,0,15,Two year,DSL,UPI,77.91,1168.65,2024-05-06,No
+20272,Male,0,32,Month-to-month,DSL,Bank transfer,72.84,2330.88,2025-07-21,Yes
+20273,Male,0,14,Month-to-month,DSL,UPI,95.97,1343.58,2024-07-31,Yes
+20274,Male,0,70,Two year,Fiber optic,Credit card,101.24,7086.8,2021-06-17,No
+20275,Male,0,11,Month-to-month,Fiber optic,UPI,46.59,512.49,2022-11-26,No
+20276,Female,0,37,Month-to-month,DSL,UPI,73.79,2730.23,2025-05-03,No
+20277,Female,0,68,One year,DSL,Bank transfer,107.55,7313.4,2025-03-09,No
+20278,Female,0,37,Month-to-month,Fiber optic,Credit card,88.1,3259.7,2026-03-17,Yes
+20279,Male,0,64,Two year,Fiber optic,Bank transfer,83.66,5354.24,2024-02-09,No
+20280,Male,0,64,One year,Fiber optic,UPI,126.62,8103.68,2023-05-31,No
+20281,Male,0,55,Month-to-month,Fiber optic,Cash,59.67,3281.85,2026-04-05,No
+20282,Male,0,53,Month-to-month,No,Bank transfer,82.48,4371.44,2023-07-29,No
+20283,Male,0,41,Month-to-month,No,Bank transfer,64.4,2640.4,2022-03-11,No
+20284,Male,1,41,Month-to-month,Fiber optic,Credit card,124.71,5113.11,2026-02-18,No
+20285,Female,0,59,Month-to-month,DSL,Cash,21.44,1264.96,2023-05-26,No
+20286,Female,0,30,Month-to-month,DSL,Bank transfer,59.9,1797.0,2023-06-03,No
+20287,Female,1,68,Month-to-month,Fiber optic,Credit card,64.13,4360.84,2025-03-02,No
+20288,Male,0,63,Month-to-month,No,Cash,99.91,6294.33,2023-04-10,No
+20289,Male,0,26,Month-to-month,DSL,Cash,98.19,2552.94,2025-10-05,Yes
+20290,Female,0,29,Two year,Fiber optic,Bank transfer,121.86,3533.94,2025-08-25,Yes
+20291,Female,0,51,One year,Fiber optic,Credit card,32.78,1671.78,2022-04-28,No
+20292,Female,0,66,Month-to-month,Fiber optic,Credit card,102.51,6765.66,2023-09-30,No
+20293,Female,0,6,Month-to-month,Fiber optic,Credit card,71.2,427.2,2021-10-21,Yes
+20294,Female,0,4,Month-to-month,Fiber optic,UPI,60.03,240.12,2024-08-08,No
+20295,Female,1,17,Month-to-month,DSL,UPI,96.19,1635.23,2023-06-23,Yes
+20296,Female,0,30,Month-to-month,DSL,Bank transfer,52.4,1572.0,2022-10-29,Yes
+20297,Male,0,11,Two year,Fiber optic,Bank transfer,18.0,198.0,2021-07-15,No
+20298,Male,1,37,Month-to-month,Fiber optic,Bank transfer,68.89,2548.93,2024-10-07,Yes
+20299,Male,0,38,Month-to-month,Fiber optic,Cash,35.07,1332.66,2021-09-09,Yes
+20300,Male,1,68,Two year,Fiber optic,Cash,60.53,4116.04,2023-03-25,No
+20301,Female,0,53,Month-to-month,No,UPI,91.15,4830.95,2023-12-22,Yes
+20302,Male,0,18,One year,Fiber optic,UPI,89.36,1608.48,2025-04-11,Yes
+20303,Female,0,56,Month-to-month,Fiber optic,Credit card,127.61,7146.16,2023-01-05,No
+20304,Female,0,58,Month-to-month,Fiber optic,UPI,74.01,4292.58,2023-11-04,No
+20305,Male,0,48,One year,Fiber optic,Bank transfer,34.0,1632.0,2025-03-26,No
+20306,Female,1,48,One year,Fiber optic,Cash,57.32,2751.36,2025-12-11,No
+20307,Male,0,22,Two year,Fiber optic,Bank transfer,52.42,1153.24,2025-07-10,No
+20308,Male,0,51,Month-to-month,Fiber optic,Bank transfer,43.47,2216.97,2024-02-11,No
+20309,Male,0,9,Two year,Fiber optic,Cash,93.06,837.54,2022-03-30,No
+20310,Male,1,45,Month-to-month,DSL,UPI,60.64,2728.8,2025-08-22,No
+20311,Female,1,66,Month-to-month,Fiber optic,Credit card,20.68,1364.88,2025-04-04,No
+20312,Male,0,69,Month-to-month,DSL,Bank transfer,100.91,6962.79,2023-08-02,No
+20313,Female,0,21,Month-to-month,DSL,Cash,76.66,1609.86,2024-12-04,Yes
+20314,Male,0,23,Month-to-month,Fiber optic,UPI,90.71,2086.33,2024-09-17,Yes
+20315,Female,1,44,Month-to-month,No,UPI,83.17,3659.48,2022-02-18,No
+20316,Male,0,28,One year,No,Bank transfer,98.95,2770.6,2022-09-24,No
+20317,Female,1,52,Month-to-month,Fiber optic,Bank transfer,81.14,4219.28,2025-08-26,No
+20318,Male,0,14,Two year,DSL,Bank transfer,117.09,1639.26,2024-04-21,No
+20319,Male,0,12,Month-to-month,Fiber optic,UPI,92.75,1113.0,2021-09-22,Yes
+20320,Female,0,3,Month-to-month,Fiber optic,Bank transfer,91.76,275.28,2024-09-06,Yes
+20321,Male,1,33,One year,Fiber optic,Bank transfer,92.3,3045.9,2023-04-17,No
+20322,Male,1,15,One year,Fiber optic,UPI,36.3,544.5,2022-05-10,No
+20323,Male,0,21,Month-to-month,Fiber optic,UPI,75.06,1576.26,2022-03-06,No
+20324,Female,0,65,Month-to-month,Fiber optic,Cash,72.22,4694.3,2024-02-04,No
+20325,Female,1,58,Month-to-month,Fiber optic,Cash,86.23,5001.34,2022-12-15,No
+20326,Male,0,60,One year,Fiber optic,Cash,39.24,2354.4,2025-12-16,No
+20327,Male,0,42,Month-to-month,Fiber optic,UPI,129.02,5418.84,2022-11-24,Yes
+20328,Male,0,8,One year,No,Cash,83.13,665.04,2022-05-30,Yes
+20329,Female,0,53,One year,No,Bank transfer,43.66,2313.98,2021-10-07,No
+20330,Male,0,43,Month-to-month,No,Cash,28.73,1235.39,2023-10-27,No
+20331,Male,0,65,One year,Fiber optic,Bank transfer,71.56,4651.4,2022-07-15,No
+20332,Male,0,34,Month-to-month,DSL,Credit card,77.31,2628.54,2025-07-17,Yes
+20333,Female,0,12,Month-to-month,Fiber optic,Credit card,58.45,701.4,2024-09-26,Yes
+20334,Female,0,42,Month-to-month,Fiber optic,Cash,82.76,3475.92,2023-07-07,No
+20335,Male,1,32,Month-to-month,Fiber optic,Cash,60.76,1944.32,2026-03-04,No
+20336,Male,1,47,Month-to-month,Fiber optic,Bank transfer,96.55,4537.85,2021-07-24,Yes
+20337,Female,0,27,Month-to-month,DSL,Bank transfer,58.26,1573.02,2022-04-24,No
+20338,Male,0,22,Month-to-month,DSL,Bank transfer,78.84,1734.48,2024-01-02,Yes
+20339,Male,0,9,Month-to-month,Fiber optic,Cash,109.37,984.33,2022-02-27,Yes
+20340,Female,1,69,Two year,DSL,Bank transfer,140.0,9660.0,2023-09-11,No
+20341,Male,0,54,Two year,Fiber optic,UPI,49.77,2687.58,2021-08-23,No
+20342,Female,0,33,Month-to-month,DSL,UPI,66.06,2179.98,2025-12-26,No
+20343,Male,0,16,Two year,Fiber optic,Cash,54.8,876.8,2025-04-24,No
+20344,Male,0,45,Month-to-month,Fiber optic,Cash,103.53,4658.85,2024-09-08,Yes
+20345,Male,0,29,Month-to-month,Fiber optic,UPI,45.56,1321.24,2026-04-23,Yes
+20346,Male,0,45,One year,Fiber optic,Bank transfer,65.47,2946.15,2025-03-29,No
+20347,Female,0,6,Month-to-month,Fiber optic,Credit card,79.11,474.66,2022-11-29,Yes
+20348,Female,0,13,Month-to-month,DSL,UPI,50.64,658.32,2023-03-25,Yes
+20349,Female,0,52,One year,DSL,Bank transfer,51.28,2666.56,2024-06-08,No
+20350,Male,0,4,Month-to-month,Fiber optic,Credit card,65.73,262.92,2025-10-31,Yes
+20351,Female,0,48,Month-to-month,DSL,Cash,18.0,864.0,2023-01-14,No
+20352,Male,0,29,One year,DSL,UPI,36.64,1062.56,2025-07-01,No
+20353,Female,1,0,Month-to-month,Fiber optic,Bank transfer,67.61,0.0,2026-02-07,Yes
+20354,Male,0,55,Two year,Fiber optic,Credit card,84.45,4644.75,2021-11-11,No
+20355,Female,0,50,Month-to-month,Fiber optic,Cash,74.43,3721.5,2022-12-12,No
+20356,Female,0,58,One year,Fiber optic,Cash,26.78,1553.24,2024-09-02,No
+20357,Male,0,64,One year,Fiber optic,Bank transfer,66.09,4229.76,2023-04-06,No
+20358,Male,0,52,Month-to-month,DSL,Credit card,103.95,5405.4,2025-11-15,Yes
+20359,Female,0,60,Month-to-month,Fiber optic,Cash,96.68,5800.8,2023-11-11,No
+20360,Female,0,8,Month-to-month,Fiber optic,Credit card,77.64,621.12,2024-08-14,Yes
+20361,Male,0,66,Month-to-month,Fiber optic,Credit card,53.38,3523.08,2022-09-30,No
+20362,Male,0,65,Month-to-month,DSL,Cash,98.94,6431.1,2026-03-15,Yes
+20363,Female,0,49,Month-to-month,Fiber optic,UPI,62.63,3068.87,2023-12-11,No
+20364,Male,0,57,Month-to-month,DSL,UPI,44.92,2560.44,2022-09-13,No
+20365,Male,0,53,One year,Fiber optic,UPI,55.93,2964.29,2025-10-14,No
+20366,Male,0,63,Month-to-month,Fiber optic,UPI,123.45,7777.35,2024-04-24,Yes
+20367,Male,1,64,Month-to-month,DSL,UPI,86.61,5543.04,2023-07-18,No
+20368,Female,0,37,Month-to-month,Fiber optic,Bank transfer,114.78,4246.86,2024-01-17,No
+20369,Male,0,58,Month-to-month,Fiber optic,UPI,65.62,3805.96,2022-10-23,No
+20370,Female,0,65,One year,DSL,UPI,108.14,7029.1,2022-11-14,No
+20371,Female,0,21,Month-to-month,No,UPI,61.95,1300.95,2022-07-12,Yes
+20372,Male,0,3,Month-to-month,Fiber optic,Bank transfer,75.28,225.84,2025-04-07,Yes
+20373,Female,0,12,Month-to-month,Fiber optic,UPI,140.0,1680.0,2023-03-12,Yes
+20374,Female,0,2,Month-to-month,DSL,Cash,103.01,206.02,2023-07-17,Yes
+20375,Male,0,31,One year,Fiber optic,Bank transfer,64.96,2013.76,2025-01-04,No
+20376,Male,0,1,Month-to-month,Fiber optic,Bank transfer,77.46,77.46,2024-08-13,Yes
+20377,Male,0,18,Month-to-month,Fiber optic,UPI,89.79,1616.22,2022-06-14,Yes
+20378,Female,0,18,Month-to-month,Fiber optic,UPI,116.31,2093.58,2025-04-08,Yes
+20379,Female,0,50,Month-to-month,Fiber optic,Cash,65.33,3266.5,2026-03-30,No
+20380,Male,0,17,Two year,DSL,UPI,27.76,471.92,2024-12-31,No
+20381,Male,0,68,Month-to-month,Fiber optic,Credit card,71.61,4869.48,2025-02-02,No
+20382,Female,0,13,Month-to-month,Fiber optic,Bank transfer,80.46,1045.98,2021-11-28,Yes
+20383,Male,0,69,One year,No,Bank transfer,83.29,5747.01,2023-05-18,No
+20384,Male,0,40,One year,Fiber optic,Cash,119.5,4780.0,2021-09-08,No
+20385,Male,0,17,Month-to-month,Fiber optic,UPI,89.5,1521.5,2021-12-30,Yes
+20386,Female,0,2,Two year,Fiber optic,Bank transfer,104.39,208.78,2025-06-16,Yes
+20387,Female,0,22,Month-to-month,Fiber optic,Bank transfer,46.97,1033.34,2022-03-27,No
+20388,Male,0,42,Month-to-month,DSL,Bank transfer,106.04,4453.68,2024-08-14,No
+20389,Male,0,7,Month-to-month,Fiber optic,Cash,140.0,980.0,2022-11-07,Yes
+20390,Female,0,11,Two year,Fiber optic,Bank transfer,103.19,1135.09,2022-02-22,No
+20391,Male,0,8,Month-to-month,Fiber optic,Cash,87.61,700.88,2025-02-23,No
+20392,Male,1,48,Month-to-month,Fiber optic,Credit card,84.62,4061.76,2022-01-21,Yes
+20393,Male,1,6,Month-to-month,Fiber optic,Credit card,133.61,801.66,2025-12-08,Yes
+20394,Female,0,1,Month-to-month,DSL,Bank transfer,52.18,52.18,2023-11-13,No
+20395,Female,0,32,Month-to-month,Fiber optic,Credit card,76.67,2453.44,2026-03-18,No
+20396,Female,0,22,Two year,DSL,UPI,93.81,2063.82,2022-04-17,Yes
+20397,Female,0,41,One year,DSL,Credit card,102.32,4195.12,2025-07-20,Yes
+20398,Female,1,67,Month-to-month,Fiber optic,Credit card,66.88,4480.96,2026-01-01,Yes
+20399,Female,1,61,Two year,Fiber optic,Cash,89.22,5442.42,2025-08-26,No
+20400,Male,0,38,Month-to-month,DSL,Cash,71.66,2723.08,2022-07-09,Yes
+20401,Female,0,46,One year,Fiber optic,Bank transfer,83.61,3846.06,2023-10-04,Yes
+20402,Male,0,58,Month-to-month,No,UPI,76.04,4410.32,2026-01-24,No
+20403,Female,1,31,One year,Fiber optic,Bank transfer,45.75,1418.25,2021-09-19,Yes
+20404,Female,0,47,Month-to-month,No,Bank transfer,79.37,3730.39,2024-12-10,No
+20405,Female,0,15,Month-to-month,Fiber optic,UPI,106.31,1594.65,2023-12-06,Yes
+20406,Male,0,43,One year,Fiber optic,Bank transfer,50.99,2192.57,2024-02-26,No
+20407,Male,0,17,Month-to-month,Fiber optic,Credit card,72.77,1237.09,2023-12-26,Yes
+20408,Male,0,13,Month-to-month,Fiber optic,UPI,99.94,1299.22,2024-09-21,Yes
+20409,Male,1,54,Month-to-month,Fiber optic,Credit card,47.9,2586.6,2025-04-04,Yes
+20410,Male,0,41,One year,Fiber optic,Cash,85.48,3504.68,2024-10-28,Yes
+20411,Male,0,27,Month-to-month,DSL,Credit card,48.2,1301.4,2021-08-10,No
+20412,Female,1,2,One year,DSL,UPI,114.04,228.08,2022-10-27,Yes
+20413,Male,0,17,Month-to-month,Fiber optic,Cash,140.0,2380.0,2024-04-11,Yes
+20414,Female,0,57,Month-to-month,Fiber optic,Cash,140.0,7980.0,2023-10-27,Yes
+20415,Female,0,33,Month-to-month,Fiber optic,Credit card,73.42,2422.86,2024-02-17,Yes
+20416,Male,0,69,Month-to-month,DSL,Credit card,102.21,7052.49,2021-09-28,No
+20417,Female,0,64,One year,Fiber optic,Credit card,83.63,5352.32,2024-02-17,No
+20418,Male,0,61,One year,DSL,Bank transfer,83.06,5066.66,2021-08-26,No
+20419,Female,0,1,Month-to-month,No,UPI,126.43,126.43,2021-11-30,No
+20420,Male,0,3,Month-to-month,Fiber optic,Cash,40.42,121.26,2026-01-24,Yes
+20421,Female,0,41,Month-to-month,Fiber optic,UPI,111.66,4578.06,2025-05-19,Yes
+20422,Male,0,24,Month-to-month,Fiber optic,Cash,78.53,1884.72,2025-08-09,Yes
+20423,Male,0,60,One year,Fiber optic,Cash,122.26,7335.6,2022-06-08,No
+20424,Male,0,22,One year,DSL,Credit card,85.62,1883.64,2025-02-16,No
+20425,Male,0,11,Month-to-month,DSL,Bank transfer,59.82,658.02,2021-06-10,Yes
+20426,Male,0,8,Two year,Fiber optic,UPI,88.31,706.48,2021-12-05,Yes
+20427,Female,0,21,Month-to-month,Fiber optic,Bank transfer,102.08,2143.68,2024-06-02,Yes
+20428,Male,0,45,Month-to-month,Fiber optic,Bank transfer,81.07,3648.15,2024-06-27,No
+20429,Male,0,9,One year,Fiber optic,Bank transfer,94.64,851.76,2021-09-05,Yes
+20430,Female,0,57,Month-to-month,DSL,Bank transfer,64.35,3667.95,2024-12-09,No
+20431,Female,0,21,Month-to-month,No,Bank transfer,18.0,378.0,2025-10-13,No
+20432,Male,0,22,Month-to-month,Fiber optic,UPI,107.0,2354.0,2023-07-15,Yes
+20433,Male,0,47,Month-to-month,DSL,UPI,100.97,4745.59,2024-03-16,No
+20434,Female,1,62,One year,Fiber optic,Credit card,84.45,5235.9,2023-04-12,No
+20435,Male,1,31,Month-to-month,Fiber optic,UPI,82.05,2543.55,2025-12-08,Yes
+20436,Male,0,57,Month-to-month,Fiber optic,Cash,111.09,6332.13,2024-12-29,Yes
+20437,Female,1,21,Month-to-month,Fiber optic,Bank transfer,66.29,1392.09,2024-09-15,Yes
+20438,Male,0,9,One year,No,Bank transfer,58.8,529.2,2021-06-19,Yes
+20439,Female,1,59,Two year,DSL,Bank transfer,74.34,4386.06,2024-09-15,No
+20440,Female,0,55,One year,No,UPI,115.67,6361.85,2023-09-26,No
+20441,Male,1,54,Month-to-month,Fiber optic,Cash,38.39,2073.06,2024-11-19,Yes
+20442,Male,0,63,Month-to-month,DSL,Bank transfer,115.75,7292.25,2022-09-05,No
+20443,Male,0,35,Month-to-month,Fiber optic,Cash,60.82,2128.7,2022-01-27,No
+20444,Male,0,14,Month-to-month,Fiber optic,Credit card,46.98,657.72,2023-08-08,Yes
+20445,Male,1,42,Month-to-month,Fiber optic,Bank transfer,117.8,4947.6,2023-09-28,Yes
+20446,Female,0,41,Month-to-month,Fiber optic,Cash,77.09,3160.69,2024-02-20,Yes
+20447,Female,0,27,Month-to-month,DSL,Credit card,40.99,1106.73,2021-08-11,No
+20448,Male,0,45,Month-to-month,Fiber optic,Credit card,69.24,3115.8,2023-06-27,Yes
+20449,Female,0,18,Month-to-month,Fiber optic,Bank transfer,107.93,1942.74,2024-08-30,Yes
+20450,Male,0,43,Month-to-month,Fiber optic,UPI,115.76,4977.68,2025-09-26,Yes
+20451,Female,0,57,Month-to-month,DSL,Bank transfer,67.19,3829.83,2021-12-28,No
+20452,Female,0,6,Month-to-month,Fiber optic,UPI,92.19,553.14,2025-10-05,Yes
+20453,Male,0,32,Two year,Fiber optic,Bank transfer,101.42,3245.44,2022-12-29,Yes
+20454,Male,1,47,One year,DSL,UPI,60.66,2851.02,2025-02-27,No
+20455,Female,0,3,Month-to-month,Fiber optic,UPI,90.65,271.95,2021-11-09,Yes
+20456,Female,1,45,One year,DSL,Cash,79.04,3556.8,2025-05-01,No
+20457,Male,0,65,Month-to-month,Fiber optic,UPI,63.92,4154.8,2026-03-24,Yes
+20458,Male,0,59,One year,DSL,Credit card,65.24,3849.16,2023-11-19,No
+20459,Female,1,49,Month-to-month,Fiber optic,Bank transfer,82.01,4018.49,2024-05-17,Yes
+20460,Female,0,57,Month-to-month,DSL,Credit card,80.9,4611.3,2022-10-01,Yes
+20461,Female,0,26,Two year,Fiber optic,Bank transfer,63.04,1639.04,2022-03-06,Yes
+20462,Male,1,23,Month-to-month,Fiber optic,Cash,67.22,1546.06,2025-06-08,Yes
+20463,Female,1,6,Month-to-month,Fiber optic,UPI,113.4,680.4,2025-12-01,Yes
+20464,Male,0,51,One year,DSL,UPI,86.41,4406.91,2021-12-27,No
+20465,Male,0,22,Month-to-month,No,Credit card,106.55,2344.1,2025-03-23,Yes
+20466,Female,0,62,One year,DSL,Bank transfer,116.05,7195.1,2024-05-05,No
+20467,Male,0,33,Month-to-month,Fiber optic,Bank transfer,97.67,3223.11,2025-03-26,Yes
+20468,Female,0,64,Month-to-month,Fiber optic,Cash,140.0,8960.0,2024-07-15,Yes
+20469,Male,0,9,Month-to-month,Fiber optic,UPI,55.24,497.16,2026-01-05,Yes
+20470,Male,0,11,Month-to-month,Fiber optic,Cash,104.25,1146.75,2021-12-14,Yes
+20471,Female,0,24,Two year,DSL,UPI,70.46,1691.04,2021-07-10,No
+20472,Female,0,1,Month-to-month,Fiber optic,UPI,135.67,135.67,2022-06-03,Yes
+20473,Male,0,35,Month-to-month,Fiber optic,Credit card,131.01,4585.35,2021-11-24,Yes
+20474,Male,0,46,Month-to-month,Fiber optic,Credit card,21.37,983.02,2024-09-22,Yes
+20475,Male,0,47,Month-to-month,Fiber optic,Cash,50.93,2393.71,2024-02-06,Yes
+20476,Male,0,15,One year,Fiber optic,Credit card,99.93,1498.95,2025-08-22,Yes
+20477,Male,0,11,Month-to-month,DSL,Credit card,103.7,1140.7,2025-11-24,Yes
+20478,Male,0,40,Month-to-month,Fiber optic,Bank transfer,102.1,4084.0,2023-05-05,Yes
+20479,Male,0,45,One year,Fiber optic,Bank transfer,77.87,3504.15,2025-06-15,Yes
+20480,Female,0,68,Month-to-month,Fiber optic,UPI,93.65,6368.2,2024-01-13,Yes
+20481,Male,1,64,Month-to-month,No,UPI,99.59,6373.76,2025-08-06,No
+20482,Female,0,27,Month-to-month,DSL,UPI,77.66,2096.82,2024-11-26,No
+20483,Female,1,11,Month-to-month,Fiber optic,Credit card,110.82,1219.02,2023-09-30,Yes
+20484,Female,1,18,Two year,Fiber optic,Credit card,18.0,324.0,2024-04-13,Yes
+20485,Male,0,63,Month-to-month,Fiber optic,Bank transfer,99.01,6237.63,2022-07-08,Yes
+20486,Female,0,32,Month-to-month,No,UPI,48.98,1567.36,2023-09-12,No
+20487,Female,0,71,Month-to-month,DSL,UPI,108.76,7721.96,2021-08-09,No
+20488,Male,0,47,Month-to-month,No,Bank transfer,73.14,3437.58,2024-07-23,No
+20489,Female,0,42,Month-to-month,Fiber optic,Bank transfer,53.34,2240.28,2021-10-30,Yes
+20490,Male,0,7,Month-to-month,Fiber optic,Credit card,91.22,638.54,2024-11-29,Yes
+20491,Female,0,42,Month-to-month,No,Credit card,52.66,2211.72,2025-11-29,No
+20492,Male,0,27,Month-to-month,Fiber optic,Credit card,52.62,1420.74,2025-05-12,Yes
+20493,Female,0,60,One year,Fiber optic,UPI,32.98,1978.8,2023-05-02,Yes
+20494,Male,0,9,Month-to-month,DSL,Credit card,79.2,712.8,2024-03-06,Yes
+20495,Male,0,13,One year,Fiber optic,Credit card,94.9,1233.7,2024-07-26,Yes
+20496,Female,0,47,Month-to-month,DSL,Credit card,110.69,5202.43,2024-09-02,No
+20497,Female,0,48,Two year,Fiber optic,Bank transfer,75.75,3636.0,2023-07-24,No
+20498,Male,0,59,Month-to-month,Fiber optic,Credit card,111.44,6574.96,2022-05-18,Yes
+20499,Male,0,37,Two year,No,Bank transfer,80.54,2979.98,2022-03-31,No
+20500,Female,0,27,Month-to-month,Fiber optic,Credit card,77.2,2084.4,2022-03-18,Yes
+20501,Female,0,22,Month-to-month,Fiber optic,Bank transfer,97.21,2138.62,2021-07-11,Yes
+20502,Female,0,26,One year,DSL,Bank transfer,111.75,2905.5,2025-05-28,Yes
+20503,Male,0,47,Month-to-month,Fiber optic,Bank transfer,69.76,3278.72,2023-07-02,Yes
+20504,Female,0,38,Month-to-month,Fiber optic,UPI,72.69,2762.22,2022-07-08,Yes
+20505,Male,0,21,Month-to-month,DSL,Cash,75.18,1578.78,2025-07-15,Yes
+20506,Female,0,15,Month-to-month,No,Bank transfer,82.48,1237.2,2023-07-27,Yes
+20507,Male,0,51,Month-to-month,Fiber optic,Bank transfer,52.99,2702.49,2025-03-07,No
+20508,Female,0,17,Month-to-month,Fiber optic,Credit card,110.84,1884.28,2025-10-10,Yes
+20509,Female,0,15,Month-to-month,Fiber optic,Credit card,67.99,1019.85,2023-01-19,Yes
+20510,Male,0,23,Month-to-month,Fiber optic,UPI,93.87,2159.01,2022-02-20,No
+20511,Female,0,61,Month-to-month,Fiber optic,Credit card,55.24,3369.64,2022-02-01,Yes
+20512,Female,0,32,One year,Fiber optic,UPI,90.76,2904.32,2024-10-04,No
+20513,Male,0,42,Month-to-month,Fiber optic,Credit card,91.75,3853.5,2024-06-02,Yes
+20514,Male,1,5,Month-to-month,Fiber optic,Cash,67.38,336.9,2022-08-22,Yes
+20515,Male,0,24,Two year,DSL,Cash,140.0,3360.0,2024-08-06,Yes
+20516,Female,0,54,Month-to-month,Fiber optic,UPI,91.13,4921.02,2024-07-01,Yes
+20517,Female,0,55,Month-to-month,DSL,Bank transfer,133.31,7332.05,2025-10-11,Yes
+20518,Male,0,41,Month-to-month,Fiber optic,Credit card,108.77,4459.57,2025-06-09,Yes
+20519,Female,0,63,Month-to-month,Fiber optic,UPI,60.13,3788.19,2022-12-25,Yes
+20520,Female,0,21,Month-to-month,Fiber optic,Cash,68.53,1439.13,2025-06-16,Yes
+20521,Male,0,11,One year,DSL,UPI,93.08,1023.88,2024-06-25,No
+20522,Male,0,5,Month-to-month,Fiber optic,UPI,81.84,409.2,2025-03-31,Yes
+20523,Female,0,14,One year,Fiber optic,UPI,81.48,1140.72,2025-12-12,Yes
+20524,Female,0,54,Two year,Fiber optic,UPI,71.41,3856.14,2023-12-20,Yes
+20525,Male,0,65,Month-to-month,Fiber optic,Credit card,25.75,1673.75,2021-12-25,Yes
+20526,Female,0,9,Month-to-month,Fiber optic,Credit card,73.24,659.16,2024-02-04,Yes
+20527,Female,1,36,Month-to-month,DSL,UPI,18.0,648.0,2025-10-20,No
+20528,Male,0,9,Month-to-month,Fiber optic,Cash,91.15,820.35,2022-04-06,Yes
+20529,Female,0,60,Month-to-month,Fiber optic,Cash,58.22,3493.2,2022-08-11,Yes
+20530,Female,0,9,One year,Fiber optic,UPI,58.54,526.86,2021-12-28,Yes
+20531,Female,0,46,Month-to-month,Fiber optic,UPI,73.42,3377.32,2025-06-13,Yes
+20532,Female,0,5,One year,No,Cash,88.18,440.9,2025-02-06,Yes
+20533,Male,0,53,Month-to-month,Fiber optic,Bank transfer,37.04,1963.12,2023-05-25,Yes
+20534,Female,0,65,Month-to-month,Fiber optic,UPI,27.54,1790.1,2021-09-03,Yes
+20535,Female,0,52,Month-to-month,Fiber optic,UPI,48.02,2497.04,2026-01-04,No
+20536,Male,0,19,Month-to-month,Fiber optic,Bank transfer,18.75,356.25,2026-01-04,Yes
+20537,Female,0,60,Month-to-month,DSL,UPI,50.99,3059.4,2022-11-14,No
+20538,Male,1,22,Month-to-month,Fiber optic,Cash,127.73,2810.06,2022-05-01,Yes
+20539,Female,0,54,One year,Fiber optic,Cash,48.3,2608.2,2025-10-12,No
+20540,Male,0,59,Month-to-month,No,Bank transfer,99.54,5872.86,2024-12-18,No
+20541,Male,0,34,Month-to-month,Fiber optic,Cash,38.85,1320.9,2023-04-11,Yes
+20542,Male,0,44,Month-to-month,Fiber optic,Bank transfer,88.97,3914.68,2023-08-15,Yes
+20543,Female,0,61,Month-to-month,No,Cash,70.41,4295.01,2024-09-07,No
+20544,Female,0,13,Month-to-month,Fiber optic,Credit card,78.21,1016.73,2024-06-07,Yes
+20545,Female,0,1,Month-to-month,DSL,Credit card,97.06,97.06,2022-02-28,Yes
+20546,Female,0,31,One year,Fiber optic,Credit card,132.69,4113.39,2025-02-21,Yes
+20547,Male,0,13,Month-to-month,Fiber optic,UPI,85.84,1115.92,2022-08-01,Yes
+20548,Female,0,63,Month-to-month,DSL,Cash,83.73,5274.99,2022-11-15,No
+20549,Male,1,62,Month-to-month,Fiber optic,UPI,50.8,3149.6,2025-07-18,Yes
+20550,Male,0,27,Month-to-month,Fiber optic,Credit card,97.5,2632.5,2025-06-25,Yes
+20551,Male,0,22,Month-to-month,No,Credit card,72.62,1597.64,2024-12-01,No
+20552,Male,0,51,Month-to-month,DSL,Bank transfer,104.96,5352.96,2025-02-19,No
+20553,Male,0,32,Month-to-month,No,Bank transfer,78.69,2518.08,2022-06-06,No
+20554,Female,0,6,Month-to-month,Fiber optic,Bank transfer,132.23,793.38,2024-04-10,Yes
+20555,Male,0,47,Month-to-month,Fiber optic,UPI,20.51,963.97,2021-11-04,No
+20556,Female,0,52,Month-to-month,Fiber optic,Cash,71.1,3697.2,2024-03-30,Yes
+20557,Male,0,5,Month-to-month,Fiber optic,Cash,106.44,532.2,2025-02-14,Yes
+20558,Male,0,55,Month-to-month,Fiber optic,UPI,69.48,3821.4,2023-04-23,Yes
+20559,Female,0,38,Month-to-month,DSL,Bank transfer,56.23,2136.74,2024-06-20,No
+20560,Male,0,59,Month-to-month,Fiber optic,UPI,72.02,4249.18,2026-03-11,No
+20561,Male,0,61,Month-to-month,DSL,Bank transfer,38.6,2354.6,2022-10-31,No
+20562,Male,0,48,Month-to-month,Fiber optic,Cash,83.57,4011.36,2023-04-29,Yes
+20563,Female,0,24,Month-to-month,Fiber optic,Cash,140.0,3360.0,2023-09-01,Yes
+20564,Female,0,26,Month-to-month,No,Bank transfer,114.35,2973.1,2022-08-08,Yes
+20565,Female,0,52,Two year,Fiber optic,Credit card,46.73,2429.96,2023-12-12,No
+20566,Male,0,4,Month-to-month,Fiber optic,Bank transfer,53.8,215.2,2024-03-01,Yes
+20567,Female,0,16,Two year,No,Bank transfer,67.86,1085.76,2023-06-30,No
+20568,Female,0,37,Two year,Fiber optic,Bank transfer,110.13,4074.81,2025-12-14,Yes
+20569,Male,0,67,Month-to-month,Fiber optic,Cash,55.36,3709.12,2025-10-16,Yes
+20570,Female,1,54,Month-to-month,DSL,Cash,59.29,3201.66,2025-12-23,No
+20571,Male,0,58,One year,Fiber optic,Bank transfer,106.54,6179.32,2024-03-05,Yes
+20572,Male,0,13,Month-to-month,Fiber optic,Cash,105.94,1377.22,2024-04-06,Yes
+20573,Male,1,20,Month-to-month,Fiber optic,UPI,68.79,1375.8,2021-11-09,Yes
+20574,Female,1,19,Month-to-month,Fiber optic,Bank transfer,46.47,882.93,2023-05-07,Yes
+20575,Male,0,53,One year,DSL,UPI,33.51,1776.03,2023-02-07,No
+20576,Male,0,38,Month-to-month,Fiber optic,UPI,59.03,2243.14,2025-02-04,Yes
+20577,Male,0,15,Month-to-month,No,UPI,18.0,270.0,2025-05-02,Yes
+20578,Female,0,53,Month-to-month,Fiber optic,Cash,102.49,5431.97,2024-03-03,Yes
+20579,Male,1,45,One year,DSL,Bank transfer,61.1,2749.5,2021-07-11,No
+20580,Male,0,64,One year,DSL,UPI,94.44,6044.16,2025-06-21,No
+20581,Male,0,40,Month-to-month,No,Bank transfer,136.05,5442.0,2023-12-10,No
+20582,Female,0,9,Month-to-month,DSL,Cash,115.19,1036.71,2025-07-09,Yes
+20583,Male,0,63,Month-to-month,DSL,Cash,45.47,2864.61,2022-12-30,No
+20584,Male,0,13,Month-to-month,DSL,UPI,106.08,1379.04,2024-11-16,No
+20585,Female,0,3,Month-to-month,Fiber optic,Credit card,114.74,344.22,2025-02-21,Yes
+20586,Female,0,57,Month-to-month,Fiber optic,Cash,57.61,3283.77,2026-03-18,Yes
+20587,Female,0,32,Month-to-month,Fiber optic,UPI,51.4,1644.8,2025-12-07,Yes
+20588,Female,0,46,Month-to-month,Fiber optic,Bank transfer,76.71,3528.66,2024-08-11,Yes
+20589,Female,0,9,Two year,Fiber optic,Bank transfer,31.96,287.64,2021-10-26,Yes
+20590,Male,1,51,Month-to-month,Fiber optic,UPI,124.12,6330.12,2026-03-21,Yes
+20591,Female,0,29,Month-to-month,Fiber optic,UPI,18.0,522.0,2022-09-23,Yes
+20592,Female,0,71,Month-to-month,Fiber optic,Cash,46.8,3322.8,2024-08-17,Yes
+20593,Female,0,45,Month-to-month,Fiber optic,Cash,71.91,3235.95,2023-05-30,Yes
+20594,Male,0,67,One year,DSL,Bank transfer,73.19,4903.73,2022-06-29,No
+20595,Female,0,57,Month-to-month,Fiber optic,Cash,84.98,4843.86,2025-11-13,Yes
+20596,Female,0,60,One year,Fiber optic,UPI,88.14,5288.4,2024-07-04,Yes
+20597,Female,1,6,Month-to-month,Fiber optic,UPI,73.59,441.54,2023-02-12,Yes
+20598,Female,0,55,Month-to-month,Fiber optic,Cash,114.11,6276.05,2025-03-13,Yes
+20599,Male,0,43,Month-to-month,Fiber optic,UPI,18.0,774.0,2026-03-21,Yes
+20600,Female,0,28,Month-to-month,DSL,Bank transfer,80.0,2240.0,2023-07-02,Yes
+20601,Male,0,22,Month-to-month,Fiber optic,Bank transfer,58.56,1288.32,2023-01-30,Yes
+20602,Female,0,46,Month-to-month,Fiber optic,Credit card,83.98,3863.08,2022-03-30,Yes
+20603,Male,0,14,Month-to-month,DSL,Credit card,86.62,1212.68,2023-02-14,No
+20604,Female,0,13,Month-to-month,Fiber optic,Cash,52.65,684.45,2023-02-24,Yes
+20605,Female,0,62,Month-to-month,Fiber optic,Cash,60.77,3767.74,2025-12-18,Yes
+20606,Female,0,54,Month-to-month,Fiber optic,UPI,103.78,5604.12,2025-04-07,Yes
+20607,Male,0,42,Month-to-month,No,Bank transfer,90.47,3799.74,2023-06-22,No
+20608,Male,0,54,Month-to-month,Fiber optic,UPI,59.59,3217.86,2022-06-09,No
+20609,Female,0,23,One year,Fiber optic,UPI,140.0,3220.0,2024-10-19,Yes
+20610,Female,0,51,Month-to-month,No,Cash,140.0,7140.0,2021-06-21,No
+20611,Male,1,14,Month-to-month,DSL,Bank transfer,36.13,505.82,2024-06-22,No
+20612,Female,0,32,Month-to-month,DSL,UPI,89.05,2849.6,2025-09-30,Yes
+20613,Male,0,10,Month-to-month,No,Credit card,140.0,1400.0,2023-08-07,Yes
+20614,Female,0,27,Month-to-month,Fiber optic,Cash,103.52,2795.04,2026-03-16,Yes
+20615,Female,1,24,One year,DSL,Cash,86.63,2079.12,2024-12-09,No
+20616,Male,0,30,Month-to-month,Fiber optic,UPI,73.76,2212.8,2025-09-12,Yes
+20617,Female,0,34,Month-to-month,Fiber optic,UPI,63.76,2167.84,2023-04-01,Yes
+20618,Female,0,2,Month-to-month,Fiber optic,Cash,73.62,147.24,2025-05-13,Yes
+20619,Male,0,24,Month-to-month,DSL,Cash,63.48,1523.52,2023-06-05,No
+20620,Male,0,60,Month-to-month,DSL,Credit card,102.35,6141.0,2025-01-04,No
+20621,Male,1,31,Month-to-month,Fiber optic,Cash,68.06,2109.86,2023-04-12,No
+20622,Male,1,39,Month-to-month,DSL,Bank transfer,66.77,2604.03,2024-02-18,No
+20623,Female,0,7,Month-to-month,DSL,Cash,43.94,307.58,2021-08-05,Yes
+20624,Male,1,27,Month-to-month,Fiber optic,Bank transfer,78.51,2119.77,2024-08-17,Yes
+20625,Male,0,69,Month-to-month,Fiber optic,Bank transfer,53.18,3669.42,2025-11-28,Yes
+20626,Female,0,39,Month-to-month,DSL,Credit card,74.58,2908.62,2025-02-03,Yes
+20627,Female,0,1,Month-to-month,Fiber optic,Cash,111.25,111.25,2022-10-20,Yes
+20628,Male,0,51,One year,Fiber optic,Bank transfer,90.98,4639.98,2023-01-13,No
+20629,Male,0,55,Month-to-month,Fiber optic,UPI,95.14,5232.7,2026-03-09,Yes
+20630,Female,0,27,Month-to-month,Fiber optic,Bank transfer,90.68,2448.36,2022-06-05,Yes
+20631,Male,1,2,Two year,Fiber optic,Credit card,81.78,163.56,2024-09-16,Yes
+20632,Male,0,59,Month-to-month,Fiber optic,UPI,76.18,4494.62,2024-11-01,Yes
+20633,Female,0,18,Month-to-month,Fiber optic,UPI,70.77,1273.86,2024-07-29,Yes
+20634,Male,0,66,Month-to-month,DSL,Cash,102.77,6782.82,2024-05-22,No
+20635,Female,0,26,One year,Fiber optic,UPI,47.47,1234.22,2026-03-30,Yes
+20636,Female,0,27,Month-to-month,Fiber optic,Cash,120.22,3245.94,2026-04-18,Yes
+20637,Female,0,57,Two year,DSL,Cash,81.02,4618.14,2023-05-01,No
+20638,Male,0,9,One year,Fiber optic,UPI,57.54,517.86,2023-06-17,Yes
+20639,Female,1,2,Month-to-month,Fiber optic,Bank transfer,65.33,130.66,2022-07-30,Yes
+20640,Male,0,54,One year,Fiber optic,UPI,59.69,3223.26,2023-06-16,No
+20641,Male,0,66,Month-to-month,Fiber optic,Bank transfer,84.81,5597.46,2025-12-09,Yes
+20642,Female,0,71,Month-to-month,No,Credit card,58.46,4150.66,2022-01-06,Yes
+20643,Male,0,9,Month-to-month,DSL,Cash,114.26,1028.34,2022-01-03,Yes
+20644,Male,0,10,Two year,DSL,Cash,56.55,565.5,2021-06-27,No
+20645,Female,1,24,One year,Fiber optic,Bank transfer,18.0,432.0,2022-12-21,Yes
+20646,Female,0,51,Month-to-month,Fiber optic,Bank transfer,58.07,2961.57,2022-02-06,Yes
+20647,Female,0,65,Month-to-month,Fiber optic,UPI,19.74,1283.1,2024-10-02,No
+20648,Male,1,59,Month-to-month,Fiber optic,Credit card,78.8,4649.2,2024-05-01,Yes
+20649,Female,0,26,One year,Fiber optic,Bank transfer,111.77,2906.02,2025-10-20,Yes
+20650,Female,0,66,Month-to-month,No,Cash,99.43,6562.38,2026-03-01,No
+20651,Female,1,18,Two year,Fiber optic,Credit card,39.87,717.66,2022-10-14,No
+20652,Male,1,8,Month-to-month,Fiber optic,UPI,57.13,457.04,2021-12-21,Yes
+20653,Female,0,31,Two year,DSL,Credit card,133.36,4134.16,2026-01-02,No
+20654,Female,0,6,One year,DSL,Bank transfer,89.56,537.36,2022-03-16,No
+20655,Male,0,48,Month-to-month,Fiber optic,Credit card,80.12,3845.76,2021-10-21,Yes
+20656,Male,0,71,Month-to-month,Fiber optic,Cash,111.68,7929.28,2024-10-10,Yes
+20657,Female,0,7,Month-to-month,DSL,UPI,140.0,980.0,2025-03-02,Yes
+20658,Female,0,8,Month-to-month,DSL,UPI,118.9,951.2,2022-11-26,Yes
+20659,Male,0,12,Month-to-month,DSL,Bank transfer,84.18,1010.16,2023-12-25,Yes
+20660,Male,1,12,One year,DSL,Bank transfer,90.64,1087.68,2021-08-22,Yes
+20661,Female,0,38,Two year,Fiber optic,Bank transfer,98.51,3743.38,2022-12-09,Yes
+20662,Male,0,41,Month-to-month,Fiber optic,Bank transfer,61.62,2526.42,2025-10-15,Yes
+20663,Male,0,68,Two year,Fiber optic,Bank transfer,48.24,3280.32,2025-04-11,Yes
+20664,Female,0,32,Month-to-month,DSL,Cash,81.57,2610.24,2022-02-24,Yes
+20665,Male,0,66,Two year,DSL,Credit card,51.58,3404.28,2025-12-31,No
+20666,Female,0,54,Two year,DSL,Credit card,78.16,4220.64,2023-07-26,No
+20667,Male,0,61,Month-to-month,Fiber optic,Credit card,82.88,5055.68,2022-12-13,Yes
+20668,Female,0,13,One year,DSL,Credit card,140.0,1820.0,2025-02-18,Yes
+20669,Male,0,32,Month-to-month,No,Credit card,54.47,1743.04,2023-01-01,No
+20670,Female,1,65,Month-to-month,Fiber optic,Cash,76.35,4962.75,2025-04-05,Yes
+20671,Male,1,54,One year,DSL,UPI,75.07,4053.78,2021-06-25,No
+20672,Male,0,15,Month-to-month,Fiber optic,UPI,93.12,1396.8,2026-02-15,Yes
+20673,Female,0,60,Month-to-month,No,Cash,111.4,6684.0,2025-03-29,No
+20674,Male,0,55,Month-to-month,Fiber optic,Cash,65.29,3590.95,2024-05-02,Yes
+20675,Female,0,10,One year,Fiber optic,UPI,55.36,553.6,2026-03-22,Yes
+20676,Female,0,4,Two year,Fiber optic,Credit card,30.78,123.12,2022-02-22,Yes
+20677,Male,0,18,Month-to-month,Fiber optic,Bank transfer,52.21,939.78,2021-10-04,Yes
+20678,Female,0,34,One year,Fiber optic,Credit card,96.09,3267.06,2021-10-23,No
+20679,Male,1,11,Month-to-month,Fiber optic,UPI,81.37,895.07,2023-12-21,Yes
+20680,Female,0,2,Month-to-month,Fiber optic,Cash,49.54,99.08,2024-08-01,Yes
+20681,Male,1,7,Month-to-month,Fiber optic,UPI,68.82,481.74,2023-04-22,Yes
+20682,Male,0,22,Month-to-month,Fiber optic,Credit card,80.94,1780.68,2024-01-20,Yes
+20683,Male,1,28,Month-to-month,Fiber optic,Bank transfer,95.11,2663.08,2025-08-28,Yes
+20684,Female,1,22,Month-to-month,Fiber optic,UPI,62.2,1368.4,2022-08-23,Yes
+20685,Female,0,32,Month-to-month,Fiber optic,Bank transfer,72.49,2319.68,2022-03-05,Yes
+20686,Male,1,51,Month-to-month,DSL,UPI,25.45,1297.95,2022-03-24,No
+20687,Female,0,17,One year,DSL,Cash,45.46,772.82,2025-06-15,Yes
+20688,Female,0,32,Month-to-month,No,Bank transfer,128.53,4112.96,2023-02-21,Yes
+20689,Male,0,52,Month-to-month,Fiber optic,Cash,18.0,936.0,2025-12-25,Yes
+20690,Male,0,4,Month-to-month,Fiber optic,Bank transfer,69.87,279.48,2022-11-01,Yes
+20691,Female,0,67,Month-to-month,Fiber optic,Credit card,86.58,5800.86,2024-05-21,Yes
+20692,Female,0,71,Month-to-month,Fiber optic,UPI,68.77,4882.67,2023-03-01,Yes
+20693,Male,0,20,Two year,Fiber optic,Bank transfer,55.76,1115.2,2023-06-19,Yes
+20694,Female,0,63,Two year,Fiber optic,Credit card,78.17,4924.71,2023-02-23,No
+20695,Female,0,18,One year,DSL,Cash,79.85,1437.3,2022-07-10,No
+20696,Male,0,65,Month-to-month,Fiber optic,Credit card,77.54,5040.1,2025-02-14,Yes
+20697,Male,1,47,One year,DSL,Credit card,23.67,1112.49,2023-06-13,No
+20698,Female,0,17,Month-to-month,No,Cash,75.58,1284.86,2023-09-09,Yes
+20699,Male,0,4,Month-to-month,Fiber optic,Cash,54.35,217.4,2024-01-12,Yes
+20700,Male,0,28,Month-to-month,DSL,Credit card,63.57,1779.96,2025-08-05,No
+20701,Female,0,53,Two year,Fiber optic,Bank transfer,86.81,4600.93,2023-08-01,Yes
+20702,Male,1,16,One year,Fiber optic,Bank transfer,99.22,1587.52,2023-11-21,No
+20703,Male,0,37,Month-to-month,DSL,Cash,106.9,3955.3,2024-01-24,Yes
+20704,Male,0,8,Month-to-month,Fiber optic,Cash,65.11,520.88,2022-11-05,Yes
+20705,Male,1,30,Two year,Fiber optic,Credit card,107.72,3231.6,2021-07-17,Yes
+20706,Female,0,2,Two year,Fiber optic,UPI,115.21,230.42,2025-12-20,Yes
+20707,Female,1,71,Month-to-month,Fiber optic,UPI,114.1,8101.1,2021-11-21,No
+20708,Male,0,36,Month-to-month,Fiber optic,Cash,121.69,4380.84,2024-08-16,Yes
+20709,Male,0,60,Month-to-month,DSL,Cash,75.63,4537.8,2025-06-25,No
+20710,Female,1,8,Month-to-month,Fiber optic,Credit card,74.78,598.24,2025-07-27,Yes
+20711,Male,0,12,Month-to-month,Fiber optic,Cash,104.75,1257.0,2023-03-17,Yes
+20712,Male,0,12,Month-to-month,DSL,Bank transfer,39.0,468.0,2022-07-25,No
+20713,Male,0,40,Month-to-month,DSL,Bank transfer,86.28,3451.2,2021-08-09,No
+20714,Male,0,61,Month-to-month,Fiber optic,Credit card,64.08,3908.88,2026-03-18,Yes
+20715,Male,0,43,Month-to-month,DSL,UPI,68.94,2964.42,2025-12-09,No
+20716,Male,0,34,Month-to-month,DSL,Bank transfer,27.75,943.5,2024-07-18,Yes
+20717,Male,0,67,Two year,Fiber optic,UPI,53.28,3569.76,2022-05-21,No
+20718,Male,0,13,Month-to-month,No,Bank transfer,79.39,1032.07,2023-04-06,Yes
+20719,Female,1,11,Month-to-month,Fiber optic,Credit card,106.65,1173.15,2026-01-30,Yes
+20720,Male,0,48,One year,Fiber optic,Bank transfer,109.7,5265.6,2022-08-26,No
+20721,Male,0,61,Month-to-month,Fiber optic,UPI,77.59,4732.99,2025-10-22,Yes
+20722,Male,1,19,Month-to-month,Fiber optic,Cash,74.32,1412.08,2021-11-25,Yes
+20723,Female,1,18,Month-to-month,Fiber optic,Bank transfer,55.08,991.44,2023-08-02,Yes
+20724,Male,1,37,Month-to-month,DSL,Credit card,92.07,3406.59,2021-07-30,No
+20725,Male,0,56,Month-to-month,Fiber optic,Bank transfer,72.57,4063.92,2023-04-03,Yes
+20726,Male,0,20,Month-to-month,DSL,UPI,98.18,1963.6,2022-05-19,Yes
+20727,Female,0,59,Month-to-month,DSL,Cash,132.55,7820.45,2026-04-01,No
+20728,Female,0,37,Two year,Fiber optic,Cash,79.03,2924.11,2022-12-10,Yes
+20729,Female,0,50,One year,Fiber optic,Cash,35.08,1754.0,2022-10-19,No
+20730,Male,1,45,Month-to-month,Fiber optic,Bank transfer,54.17,2437.65,2024-01-12,No
+20731,Female,0,34,Month-to-month,Fiber optic,Cash,36.26,1232.84,2023-02-07,Yes
+20732,Female,0,38,Month-to-month,No,Bank transfer,44.09,1675.42,2023-05-18,No
+20733,Female,0,71,Two year,Fiber optic,Cash,119.16,8460.36,2023-04-07,Yes
+20734,Male,0,28,Month-to-month,Fiber optic,Bank transfer,86.8,2430.4,2021-08-21,Yes
+20735,Male,0,68,One year,Fiber optic,Credit card,34.39,2338.52,2023-04-05,No
+20736,Male,0,56,Month-to-month,DSL,UPI,99.61,5578.16,2022-02-15,No
+20737,Female,0,13,Two year,DSL,UPI,117.81,1531.53,2021-09-03,No
+20738,Male,0,62,Month-to-month,Fiber optic,Credit card,69.2,4290.4,2021-07-04,Yes
+20739,Female,0,27,Month-to-month,Fiber optic,Bank transfer,59.72,1612.44,2024-03-27,Yes
+20740,Male,0,12,Month-to-month,Fiber optic,UPI,69.88,838.56,2021-08-12,Yes
+20741,Female,1,18,Month-to-month,Fiber optic,UPI,88.54,1593.72,2023-01-17,Yes
+20742,Female,0,9,One year,DSL,Bank transfer,99.2,892.8,2022-11-18,Yes
+20743,Female,0,24,Month-to-month,Fiber optic,Bank transfer,115.47,2771.28,2023-06-02,Yes
+20744,Male,1,8,Month-to-month,Fiber optic,Cash,116.37,930.96,2024-07-24,Yes
+20745,Female,0,39,Month-to-month,Fiber optic,Bank transfer,115.56,4506.84,2023-09-28,Yes
+20746,Male,0,70,One year,DSL,Bank transfer,120.86,8460.2,2022-03-03,No
+20747,Female,0,69,Month-to-month,No,Credit card,99.84,6888.96,2026-04-02,No
+20748,Male,0,67,Month-to-month,Fiber optic,Cash,34.07,2282.69,2025-10-08,Yes
+20749,Male,1,17,One year,Fiber optic,Bank transfer,76.07,1293.19,2023-08-26,Yes
+20750,Female,0,16,Month-to-month,Fiber optic,Credit card,89.42,1430.72,2026-04-13,Yes
+20751,Male,0,48,Month-to-month,Fiber optic,UPI,68.51,3288.48,2022-10-04,Yes
+20752,Female,0,69,Two year,Fiber optic,UPI,107.34,7406.46,2024-06-12,Yes
+20753,Male,0,59,Month-to-month,Fiber optic,Cash,69.19,4082.21,2026-03-29,Yes
+20754,Female,0,14,Month-to-month,Fiber optic,Credit card,52.23,731.22,2021-08-26,Yes
+20755,Female,1,53,Month-to-month,DSL,Cash,123.33,6536.49,2022-03-12,No
+20756,Female,0,36,Month-to-month,No,UPI,99.98,3599.28,2022-04-23,Yes
+20757,Female,0,31,Month-to-month,DSL,UPI,86.58,2683.98,2025-08-14,No
+20758,Male,0,35,Month-to-month,DSL,Credit card,107.8,3773.0,2023-12-07,Yes
+20759,Female,0,39,Month-to-month,Fiber optic,UPI,111.88,4363.32,2023-08-04,Yes
+20760,Female,1,65,One year,Fiber optic,UPI,90.23,5864.95,2026-01-08,Yes
+20761,Male,0,57,Month-to-month,Fiber optic,UPI,18.0,1026.0,2024-05-13,Yes
+20762,Male,0,2,Month-to-month,Fiber optic,UPI,59.73,119.46,2026-04-03,Yes
+20763,Female,0,54,Month-to-month,Fiber optic,UPI,66.3,3580.2,2026-05-01,Yes
+20764,Female,0,22,Month-to-month,No,Bank transfer,50.47,1110.34,2025-01-17,No
+20765,Male,1,24,Month-to-month,No,Cash,85.96,2063.04,2021-07-28,Yes
+20766,Male,0,43,Month-to-month,Fiber optic,Bank transfer,115.77,4978.11,2025-10-20,Yes
+20767,Female,0,70,Month-to-month,Fiber optic,Bank transfer,65.45,4581.5,2022-08-23,Yes
+20768,Female,0,4,One year,Fiber optic,Cash,45.96,183.84,2021-11-22,Yes
+20769,Female,0,36,Month-to-month,DSL,Cash,140.0,5040.0,2022-05-02,Yes
+20770,Male,0,17,Month-to-month,Fiber optic,Cash,66.46,1129.82,2023-12-01,Yes
+20771,Male,0,65,Month-to-month,Fiber optic,Cash,43.01,2795.65,2024-06-03,Yes
+20772,Male,0,33,One year,DSL,UPI,87.13,2875.29,2023-10-09,No
+20773,Female,0,61,Month-to-month,Fiber optic,Credit card,92.77,5658.97,2024-02-11,Yes
+20774,Female,0,63,Month-to-month,Fiber optic,Cash,58.85,3707.55,2022-06-25,Yes
+20775,Male,0,7,Two year,Fiber optic,Cash,103.71,725.97,2021-12-04,Yes
+20776,Female,0,54,Month-to-month,DSL,Cash,65.38,3530.52,2024-03-12,No
+20777,Male,0,56,Month-to-month,Fiber optic,Cash,52.31,2929.36,2025-02-25,Yes
+20778,Male,0,59,One year,Fiber optic,Bank transfer,85.36,5036.24,2024-03-10,Yes
+20779,Female,0,71,Month-to-month,Fiber optic,Cash,103.12,7321.52,2024-06-26,Yes
+20780,Male,0,54,Two year,Fiber optic,Cash,60.98,3292.92,2026-03-15,No
+20781,Male,0,60,Month-to-month,Fiber optic,Bank transfer,89.92,5395.2,2023-04-14,Yes
+20782,Male,0,50,Two year,Fiber optic,Bank transfer,77.2,3860.0,2021-09-29,Yes
+20783,Female,0,21,Month-to-month,Fiber optic,UPI,140.0,2940.0,2022-10-02,Yes
+20784,Female,0,61,Month-to-month,DSL,UPI,58.74,3583.14,2022-11-21,No
+20785,Male,0,50,Month-to-month,Fiber optic,UPI,121.53,6076.5,2024-09-12,Yes
+20786,Female,0,49,Month-to-month,Fiber optic,UPI,78.43,3843.07,2022-04-04,Yes
+20787,Female,0,70,Month-to-month,No,Credit card,76.2,5334.0,2024-08-17,No
+20788,Male,0,52,Month-to-month,Fiber optic,Credit card,101.65,5285.8,2022-07-07,Yes
+20789,Female,0,24,Month-to-month,Fiber optic,Credit card,106.82,2563.68,2023-10-22,Yes
+20790,Male,0,21,Month-to-month,No,Bank transfer,118.01,2478.21,2022-12-26,Yes
+20791,Male,0,23,Month-to-month,Fiber optic,UPI,89.86,2066.78,2025-03-24,Yes
+20792,Male,0,12,Month-to-month,Fiber optic,Bank transfer,61.99,743.88,2023-03-27,Yes
+20793,Male,0,5,Month-to-month,DSL,Cash,63.87,319.35,2023-03-12,No
+20794,Female,0,54,Month-to-month,Fiber optic,Bank transfer,95.29,5145.66,2026-02-18,Yes
+20795,Male,0,56,Month-to-month,DSL,UPI,97.43,5456.08,2021-10-10,No
+20796,Male,0,11,Two year,Fiber optic,UPI,121.94,1341.34,2023-01-13,Yes
+20797,Female,0,28,Month-to-month,Fiber optic,Bank transfer,92.55,2591.4,2023-01-08,Yes
+20798,Male,0,66,Month-to-month,DSL,UPI,111.81,7379.46,2023-10-19,No
+20799,Female,0,60,Month-to-month,DSL,UPI,125.5,7530.0,2022-06-15,No
+20800,Female,0,42,One year,Fiber optic,Bank transfer,84.94,3567.48,2022-03-26,No
+20801,Male,1,69,Month-to-month,DSL,UPI,35.43,2444.67,2021-06-29,No
+20802,Female,0,23,Month-to-month,Fiber optic,Bank transfer,44.62,1026.26,2022-07-03,No
+20803,Female,0,60,Month-to-month,Fiber optic,Bank transfer,36.87,2212.2,2024-10-30,Yes
+20804,Female,0,67,Month-to-month,Fiber optic,Credit card,127.75,8559.25,2022-06-26,Yes
+20805,Female,0,42,Month-to-month,DSL,Credit card,54.58,2292.36,2022-09-01,No
+20806,Male,0,11,Two year,Fiber optic,UPI,116.96,1286.56,2024-03-21,Yes
+20807,Female,0,21,Month-to-month,DSL,UPI,97.57,2048.97,2023-11-11,Yes
+20808,Male,1,37,Month-to-month,Fiber optic,Credit card,131.46,4864.02,2022-11-24,Yes
+20809,Female,0,20,Month-to-month,DSL,UPI,110.09,2201.8,2022-10-17,Yes
+20810,Female,0,6,One year,Fiber optic,Cash,76.93,461.58,2022-10-14,Yes
+20811,Female,0,12,Month-to-month,Fiber optic,Cash,74.0,888.0,2021-07-02,Yes
+20812,Female,0,69,Month-to-month,Fiber optic,Bank transfer,82.56,5696.64,2023-12-30,Yes
+20813,Male,0,27,Two year,Fiber optic,Credit card,85.26,2302.02,2023-10-30,Yes
+20814,Female,1,41,Two year,DSL,UPI,64.08,2627.28,2021-06-30,No
+20815,Male,0,31,Two year,Fiber optic,Cash,79.02,2449.62,2023-03-15,Yes
+20816,Male,0,57,One year,No,Cash,128.28,7311.96,2025-09-02,No
+20817,Female,0,7,Month-to-month,Fiber optic,Cash,28.94,202.58,2024-01-24,Yes
+20818,Male,0,20,Month-to-month,Fiber optic,UPI,87.75,1755.0,2021-09-01,Yes
+20819,Female,0,42,Month-to-month,Fiber optic,Bank transfer,52.79,2217.18,2024-04-16,No
+20820,Female,0,57,Month-to-month,DSL,UPI,85.61,4879.77,2023-06-11,Yes
+20821,Female,0,33,Month-to-month,Fiber optic,UPI,105.2,3471.6,2025-08-31,Yes
+20822,Female,0,50,Month-to-month,Fiber optic,Credit card,78.27,3913.5,2026-04-15,No
+20823,Female,0,57,Month-to-month,DSL,Cash,103.19,5881.83,2022-03-12,No
+20824,Female,0,46,Month-to-month,DSL,Cash,32.3,1485.8,2022-03-30,No
+20825,Female,0,58,Month-to-month,Fiber optic,Credit card,113.21,6566.18,2025-04-03,Yes
+20826,Female,0,68,Month-to-month,Fiber optic,Bank transfer,61.91,4209.88,2021-08-21,Yes
+20827,Female,1,15,One year,Fiber optic,Cash,98.67,1480.05,2024-07-19,Yes
+20828,Female,0,31,One year,No,Bank transfer,85.47,2649.57,2023-10-23,No
+20829,Male,0,16,Month-to-month,Fiber optic,Credit card,18.0,288.0,2021-09-26,Yes
+20830,Female,0,29,One year,No,Cash,57.32,1662.28,2024-07-10,No
+20831,Female,0,0,Month-to-month,Fiber optic,Credit card,86.62,0.0,2025-03-14,Yes
+20832,Female,1,49,Two year,Fiber optic,Credit card,126.62,6204.38,2023-04-20,Yes
+20833,Male,0,16,One year,No,Bank transfer,88.62,1417.92,2022-03-15,Yes
+20834,Male,0,60,Month-to-month,DSL,UPI,87.73,5263.8,2022-07-02,Yes
+20835,Female,0,51,Month-to-month,Fiber optic,UPI,37.62,1918.62,2021-11-11,No
+20836,Male,0,24,Month-to-month,DSL,Credit card,122.93,2950.32,2024-10-26,Yes
+20837,Male,0,32,Month-to-month,Fiber optic,UPI,134.21,4294.72,2023-12-19,No
+20838,Male,0,48,Month-to-month,DSL,Bank transfer,80.86,3881.28,2024-04-27,No
+20839,Female,0,30,One year,Fiber optic,Cash,73.41,2202.3,2024-03-04,No
+20840,Female,0,15,Month-to-month,Fiber optic,UPI,31.43,471.45,2023-02-15,Yes
+20841,Male,0,3,Month-to-month,Fiber optic,UPI,106.5,319.5,2025-07-05,Yes
+20842,Female,0,39,One year,Fiber optic,UPI,140.0,5460.0,2024-06-13,Yes
+20843,Male,0,38,Month-to-month,No,UPI,101.51,3857.38,2022-10-06,Yes
+20844,Female,0,55,Month-to-month,Fiber optic,Bank transfer,117.91,6485.05,2025-07-22,Yes
+20845,Female,0,9,Two year,Fiber optic,Bank transfer,96.26,866.34,2022-06-17,Yes
+20846,Female,0,4,One year,Fiber optic,Cash,50.45,201.8,2023-12-14,No
+20847,Male,0,53,Month-to-month,DSL,UPI,120.1,6365.3,2022-01-21,No
+20848,Male,1,52,Month-to-month,DSL,Cash,42.96,2233.92,2023-04-30,No
+20849,Male,0,57,Month-to-month,Fiber optic,Cash,73.68,4199.76,2024-12-02,Yes
+20850,Male,0,1,Two year,No,Credit card,88.37,88.37,2024-06-13,No
+20851,Female,0,47,One year,Fiber optic,Bank transfer,106.49,5005.03,2025-09-30,No
+20852,Male,0,69,Month-to-month,Fiber optic,Credit card,92.48,6381.12,2023-11-26,Yes
+20853,Female,0,54,Month-to-month,Fiber optic,UPI,91.61,4946.94,2022-02-25,Yes
+20854,Female,0,33,Month-to-month,Fiber optic,Cash,57.16,1886.28,2021-11-25,Yes
+20855,Male,0,34,Month-to-month,Fiber optic,UPI,41.32,1404.88,2026-02-25,Yes
+20856,Female,1,29,Month-to-month,Fiber optic,Cash,81.84,2373.36,2025-11-12,Yes
+20857,Male,0,3,Month-to-month,Fiber optic,Cash,58.69,176.07,2025-09-09,Yes
+20858,Female,0,51,Month-to-month,Fiber optic,Credit card,40.77,2079.27,2022-01-10,Yes
+20859,Male,0,38,Month-to-month,No,Cash,42.02,1596.76,2022-01-14,No
+20860,Male,0,37,One year,Fiber optic,Cash,65.3,2416.1,2025-01-27,No
+20861,Male,0,67,One year,Fiber optic,UPI,24.42,1636.14,2025-11-19,Yes
+20862,Male,0,52,Month-to-month,Fiber optic,Bank transfer,39.58,2058.16,2023-07-20,Yes
+20863,Female,0,69,Month-to-month,No,UPI,30.95,2135.55,2024-10-28,No
+20864,Female,0,6,Month-to-month,No,UPI,85.47,512.82,2025-04-11,Yes
+20865,Male,0,68,Month-to-month,Fiber optic,UPI,92.24,6272.32,2025-11-28,No
+20866,Female,0,40,One year,Fiber optic,Credit card,140.0,5600.0,2023-12-29,Yes
+20867,Female,0,28,Two year,Fiber optic,Bank transfer,35.07,981.96,2025-06-17,No
+20868,Female,0,40,Month-to-month,No,UPI,59.61,2384.4,2025-06-17,No
+20869,Female,0,2,One year,Fiber optic,Bank transfer,107.38,214.76,2024-07-04,Yes
+20870,Male,0,67,Two year,DSL,Credit card,73.5,4924.5,2023-09-24,No
+20871,Male,0,45,Two year,DSL,Cash,70.19,3158.55,2021-06-27,No
+20872,Male,0,2,Month-to-month,Fiber optic,Bank transfer,131.28,262.56,2022-08-19,Yes
+20873,Female,0,65,Month-to-month,Fiber optic,Bank transfer,69.85,4540.25,2021-12-04,No
+20874,Female,1,32,Month-to-month,Fiber optic,Cash,45.31,1449.92,2025-03-18,Yes
+20875,Female,0,8,Month-to-month,Fiber optic,UPI,40.49,323.92,2025-07-30,Yes
+20876,Female,0,45,Month-to-month,Fiber optic,Credit card,90.07,4053.15,2025-06-29,Yes
+20877,Female,0,4,Month-to-month,Fiber optic,Bank transfer,89.16,356.64,2022-10-29,Yes
+20878,Male,0,39,Month-to-month,DSL,Bank transfer,38.85,1515.15,2023-11-22,No
+20879,Female,0,54,One year,DSL,UPI,50.44,2723.76,2023-04-04,No
+20880,Male,1,5,Month-to-month,Fiber optic,Bank transfer,96.04,480.2,2025-12-29,Yes
+20881,Female,0,56,One year,Fiber optic,Credit card,97.32,5449.92,2022-07-05,No
+20882,Male,0,42,Month-to-month,Fiber optic,Bank transfer,60.7,2549.4,2024-11-25,Yes
+20883,Male,0,23,Month-to-month,DSL,Cash,98.67,2269.41,2023-01-31,No
+20884,Male,0,15,Month-to-month,Fiber optic,Bank transfer,97.16,1457.4,2026-01-04,Yes
+20885,Female,0,0,Two year,Fiber optic,Bank transfer,26.51,0.0,2023-05-26,Yes
+20886,Male,0,14,Month-to-month,Fiber optic,Credit card,70.64,988.96,2022-05-18,Yes
+20887,Female,0,20,Month-to-month,Fiber optic,Bank transfer,92.45,1849.0,2023-03-02,Yes
+20888,Female,0,63,Month-to-month,DSL,Bank transfer,62.81,3957.03,2026-01-24,No
+20889,Male,0,36,Two year,No,UPI,18.0,648.0,2023-09-08,No
+20890,Female,0,14,One year,No,Credit card,71.51,1001.14,2025-03-13,No
+20891,Male,1,53,One year,No,Credit card,102.56,5435.68,2021-12-08,No
+20892,Male,1,32,Month-to-month,DSL,Cash,127.41,4077.12,2026-01-23,Yes
+20893,Male,0,60,Month-to-month,Fiber optic,Credit card,18.0,1080.0,2023-08-03,Yes
+20894,Male,0,54,One year,Fiber optic,UPI,140.0,7560.0,2023-02-20,Yes
+20895,Male,0,67,One year,Fiber optic,Cash,46.19,3094.73,2022-08-20,Yes
+20896,Male,0,50,One year,DSL,Cash,108.71,5435.5,2024-02-26,No
+20897,Male,0,7,Month-to-month,DSL,Cash,117.03,819.21,2024-11-18,Yes
+20898,Female,0,39,Month-to-month,Fiber optic,Bank transfer,109.49,4270.11,2025-10-27,Yes
+20899,Female,0,30,Month-to-month,Fiber optic,Credit card,84.49,2534.7,2023-12-28,Yes
+20900,Male,0,58,One year,DSL,UPI,45.16,2619.28,2024-09-23,No
+20901,Male,0,11,Two year,DSL,Credit card,98.8,1086.8,2025-04-23,No
+20902,Male,0,33,Month-to-month,Fiber optic,Bank transfer,58.54,1931.82,2022-11-03,Yes
+20903,Male,0,59,One year,Fiber optic,Credit card,18.0,1062.0,2025-03-07,No
+20904,Female,0,44,Month-to-month,Fiber optic,Credit card,140.0,6160.0,2022-11-03,Yes
+20905,Female,0,2,Month-to-month,Fiber optic,Cash,101.24,202.48,2023-09-15,Yes
+20906,Female,0,58,Month-to-month,DSL,Bank transfer,134.54,7803.32,2026-01-29,Yes
+20907,Female,0,26,Month-to-month,No,Credit card,52.65,1368.9,2023-12-14,Yes
+20908,Male,0,48,Month-to-month,Fiber optic,Bank transfer,124.03,5953.44,2024-09-21,Yes
+20909,Female,1,47,Month-to-month,No,Cash,127.7,6001.9,2025-03-02,Yes
+20910,Female,0,46,Month-to-month,Fiber optic,Bank transfer,126.64,5825.44,2021-09-04,Yes
+20911,Male,0,30,Month-to-month,Fiber optic,Bank transfer,79.36,2380.8,2026-01-15,Yes
+20912,Male,0,29,Month-to-month,DSL,Credit card,43.93,1273.97,2022-09-09,No
+20913,Female,0,7,One year,No,Cash,74.68,522.76,2023-09-12,No
+20914,Male,1,40,Month-to-month,Fiber optic,Bank transfer,18.0,720.0,2024-02-28,Yes
+20915,Female,1,20,Month-to-month,Fiber optic,Cash,28.94,578.8,2023-10-19,Yes
+20916,Female,0,28,Month-to-month,Fiber optic,UPI,82.76,2317.28,2022-05-08,No
+20917,Male,0,12,Month-to-month,Fiber optic,Bank transfer,50.26,603.12,2024-09-04,Yes
+20918,Female,0,53,Month-to-month,Fiber optic,UPI,75.07,3978.71,2023-09-17,Yes
+20919,Female,0,66,Month-to-month,Fiber optic,Bank transfer,76.73,5064.18,2023-05-10,Yes
+20920,Male,0,27,Month-to-month,Fiber optic,Bank transfer,137.92,3723.84,2024-09-14,Yes
+20921,Female,0,30,One year,Fiber optic,UPI,118.93,3567.9,2023-09-13,Yes
+20922,Female,0,33,One year,Fiber optic,Cash,78.65,2595.45,2021-10-30,Yes
+20923,Female,0,5,Month-to-month,Fiber optic,Bank transfer,116.27,581.35,2026-04-27,Yes
+20924,Female,0,54,One year,No,UPI,56.61,3056.94,2022-08-31,No
+20925,Male,0,63,Month-to-month,Fiber optic,Cash,69.89,4403.07,2024-10-23,Yes
+20926,Male,0,36,Month-to-month,Fiber optic,Cash,107.31,3863.16,2025-10-03,Yes
+20927,Male,0,4,Month-to-month,DSL,UPI,42.75,171.0,2021-08-22,Yes
+20928,Female,0,24,Month-to-month,DSL,Credit card,71.63,1719.12,2021-08-13,Yes
+20929,Female,0,11,Month-to-month,No,Bank transfer,40.37,444.07,2023-12-13,No
+20930,Female,0,59,One year,No,Bank transfer,83.52,4927.68,2021-12-18,No
+20931,Male,0,57,One year,Fiber optic,Bank transfer,128.98,7351.86,2023-12-09,Yes
+20932,Male,0,27,Month-to-month,Fiber optic,Credit card,57.44,1550.88,2025-06-15,Yes
+20933,Female,0,27,One year,DSL,Cash,86.78,2343.06,2025-06-27,No
+20934,Male,0,60,Month-to-month,Fiber optic,Bank transfer,53.08,3184.8,2024-09-30,Yes
+20935,Female,1,6,Month-to-month,Fiber optic,UPI,45.51,273.06,2025-12-26,Yes
+20936,Female,1,56,One year,Fiber optic,Credit card,42.92,2403.52,2023-09-27,No
+20937,Male,0,69,Month-to-month,Fiber optic,UPI,123.64,8531.16,2024-04-19,Yes
+20938,Female,0,32,Two year,No,Cash,140.0,4480.0,2025-08-25,No
+20939,Male,0,54,One year,DSL,UPI,94.49,5102.46,2023-04-07,No
+20940,Female,1,51,One year,Fiber optic,Credit card,58.51,2984.01,2022-06-11,No
+20941,Male,0,64,Month-to-month,Fiber optic,UPI,101.15,6473.6,2026-02-09,Yes
+20942,Female,0,2,Month-to-month,DSL,Credit card,69.97,139.94,2021-06-10,Yes
+20943,Female,0,50,Month-to-month,Fiber optic,Credit card,104.04,5202.0,2021-12-18,Yes
+20944,Male,1,28,One year,Fiber optic,Bank transfer,88.73,2484.44,2025-06-02,Yes
+20945,Male,0,61,One year,Fiber optic,UPI,88.39,5391.79,2024-08-04,Yes
+20946,Male,0,61,Month-to-month,Fiber optic,UPI,98.22,5991.42,2024-07-22,Yes
+20947,Female,0,20,Month-to-month,DSL,UPI,62.62,1252.4,2024-11-10,Yes
+20948,Male,1,41,Month-to-month,DSL,Cash,67.87,2782.67,2023-01-28,No
+20949,Male,0,35,Month-to-month,No,UPI,28.36,992.6,2025-06-13,No
+20950,Female,0,40,Two year,Fiber optic,Bank transfer,66.74,2669.6,2024-04-08,Yes
+20951,Male,0,59,Month-to-month,Fiber optic,Cash,37.33,2202.47,2022-12-07,No
+20952,Male,0,47,Month-to-month,Fiber optic,Cash,75.66,3556.02,2021-10-25,Yes
+20953,Male,0,54,Month-to-month,Fiber optic,Credit card,51.27,2768.58,2023-01-15,Yes
+20954,Female,0,48,One year,Fiber optic,UPI,83.04,3985.92,2022-12-16,No
+20955,Female,0,18,Month-to-month,Fiber optic,Bank transfer,93.6,1684.8,2025-12-05,Yes
+20956,Female,0,42,Month-to-month,DSL,Bank transfer,37.4,1570.8,2024-03-20,Yes
+20957,Female,0,27,Month-to-month,Fiber optic,Bank transfer,55.6,1501.2,2025-05-16,Yes
+20958,Male,0,30,Month-to-month,DSL,UPI,51.7,1551.0,2025-07-30,No
+20959,Female,0,8,Month-to-month,DSL,Cash,102.39,819.12,2025-02-04,Yes
+20960,Male,0,13,One year,Fiber optic,UPI,131.19,1705.47,2022-12-22,Yes
+20961,Male,0,24,Month-to-month,Fiber optic,Credit card,105.55,2533.2,2022-05-28,Yes
+20962,Male,0,21,Month-to-month,Fiber optic,Credit card,69.52,1459.92,2021-09-18,Yes
+20963,Female,0,45,Month-to-month,Fiber optic,Bank transfer,123.95,5577.75,2022-09-30,Yes
+20964,Female,0,21,Month-to-month,DSL,Credit card,34.58,726.18,2021-11-06,No
+20965,Male,0,17,One year,Fiber optic,Credit card,124.98,2124.66,2022-10-25,Yes
+20966,Female,0,31,Two year,Fiber optic,Bank transfer,60.31,1869.61,2022-12-04,Yes
+20967,Male,0,40,Month-to-month,DSL,Credit card,18.0,720.0,2022-08-02,No
+20968,Female,0,71,Two year,Fiber optic,Credit card,140.0,9940.0,2024-07-02,Yes
+20969,Male,1,36,Month-to-month,Fiber optic,Bank transfer,127.34,4584.24,2025-08-23,Yes
+20970,Male,0,25,Month-to-month,DSL,UPI,49.04,1226.0,2024-11-21,No
+20971,Female,0,23,Month-to-month,Fiber optic,Cash,85.07,1956.61,2024-10-19,No
+20972,Female,0,32,Month-to-month,Fiber optic,Bank transfer,73.57,2354.24,2024-11-02,Yes
+20973,Male,0,66,Month-to-month,DSL,Bank transfer,83.07,5482.62,2023-08-26,No
+20974,Male,0,26,Month-to-month,No,Credit card,35.5,923.0,2025-09-22,No
+20975,Male,0,17,Month-to-month,DSL,Cash,59.56,1012.52,2025-02-01,No
+20976,Female,0,41,Month-to-month,Fiber optic,Credit card,94.04,3855.64,2024-10-10,Yes
+20977,Male,0,55,Month-to-month,Fiber optic,Cash,86.68,4767.4,2026-02-23,Yes
+20978,Male,0,68,Month-to-month,Fiber optic,Cash,115.98,7886.64,2024-09-20,Yes
+20979,Male,0,20,Month-to-month,DSL,Cash,82.39,1647.8,2023-04-21,Yes
+20980,Female,0,64,Month-to-month,Fiber optic,Bank transfer,140.0,8960.0,2024-05-05,Yes
+20981,Male,0,61,One year,DSL,Cash,58.53,3570.33,2025-02-05,No
+20982,Male,0,27,Month-to-month,Fiber optic,Bank transfer,87.78,2370.06,2024-09-12,Yes
+20983,Female,0,24,Month-to-month,No,Credit card,22.51,540.24,2024-08-24,No
+20984,Female,0,19,Month-to-month,No,Cash,42.41,805.79,2025-01-05,No
+20985,Female,0,22,Month-to-month,No,Bank transfer,119.86,2636.92,2021-09-24,Yes
+20986,Female,0,63,Month-to-month,Fiber optic,Cash,51.72,3258.36,2026-03-23,No
+20987,Male,0,22,One year,Fiber optic,UPI,95.92,2110.24,2026-04-06,Yes
+20988,Female,1,35,Two year,Fiber optic,UPI,78.15,2735.25,2022-04-20,Yes
+20989,Female,0,67,Month-to-month,DSL,Credit card,48.66,3260.22,2022-05-03,No
+20990,Female,1,49,Month-to-month,No,Cash,69.55,3407.95,2024-08-01,Yes
+20991,Male,0,9,Two year,DSL,Credit card,64.57,581.13,2021-06-11,No
+20992,Male,0,5,One year,Fiber optic,Bank transfer,65.38,326.9,2022-01-10,Yes
+20993,Male,0,16,Month-to-month,DSL,UPI,102.61,1641.76,2025-02-27,Yes
+20994,Female,1,62,One year,DSL,Bank transfer,99.57,6173.34,2022-06-06,No
+20995,Female,0,16,Month-to-month,DSL,Cash,62.68,1002.88,2022-04-12,Yes
+20996,Female,1,22,Two year,No,Credit card,52.79,1161.38,2025-12-25,No
+20997,Male,0,38,Month-to-month,DSL,Cash,88.47,3361.86,2025-08-04,Yes
+20998,Female,1,35,Month-to-month,No,Credit card,77.0,2695.0,2023-05-30,No
+20999,Female,1,5,Month-to-month,DSL,Bank transfer,110.85,554.25,2025-02-24,Yes
+21000,Male,0,14,Month-to-month,Fiber optic,Bank transfer,140.0,1960.0,2024-03-17,Yes

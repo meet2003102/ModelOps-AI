@@ -1,0 +1,23 @@
+# core
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.4
+scipy>=1.11
+joblib>=1.3
+openpyxl>=3.1
+# boosting + tuning (optional in code, recommended)
+xgboost>=2.0
+lightgbm>=4.0
+optuna>=3.5
+# later steps
+shap>=0.45
+fairlearn>=0.10
+river>=0.21
+evidently==0.4.40
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+sqlalchemy>=2.0
+httpx>=0.27
+# dev
+pytest>=8.0

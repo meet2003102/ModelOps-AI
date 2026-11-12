@@ -1,0 +1,26 @@
+# docker compose up --build          -> app on http://localhost:8080 (API docs: http://localhost:8000/docs)
+# docker compose --profile llm up    -> also starts Ollama; then once:
+#   docker compose exec ollama ollama pull qwen2.5:3b
+services:
+  backend:
+    build: { context: ., dockerfile: Dockerfile.backend }
+    ports: ["8000:8000"]
+    volumes: ["modelops-artifacts:/app/artifacts"]
+    environment:
+      OLLAMA_URL: http://ollama:11434
+      OLLAMA_MODEL: qwen2.5:3b
+
+  frontend:
+    build: { context: ., dockerfile: Dockerfile.frontend }
+    ports: ["8080:80"]
+    depends_on: [backend]
+
+  ollama:
+    image: ollama/ollama:latest
+    profiles: ["llm"]
+    ports: ["11434:11434"]
+    volumes: ["ollama-models:/root/.ollama"]
+
+volumes:
+  modelops-artifacts:
+  ollama-models:

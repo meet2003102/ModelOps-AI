@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Which algorithm was selected as the final model?",
+    "kind": "text",
+    "expected": "LightGBM"
+  },
+  {
+    "id": 2,
+    "question": "What is the target column the model predicts?",
+    "kind": "text",
+    "expected": "churn"
+  },
+  {
+    "id": 3,
+    "question": "Which metric was used to select the best model?",
+    "kind": "text",
+    "expected": "f1_macro"
+  },
+  {
+    "id": 4,
+    "question": "What is the model's accuracy on the held-out test set?",
+    "kind": "number",
+    "expected": 0.68
+  },
+  {
+    "id": 5,
+    "question": "What is the model's precision_macro on the held-out test set?",
+    "kind": "number",
+    "expected": 0.682
+  },
+  {
+    "id": 6,
+    "question": "What is the model's recall_macro on the held-out test set?",
+    "kind": "number",
+    "expected": 0.6768
+  },
+  {
+    "id": 7,
+    "question": "What is the model's f1_macro on the held-out test set?",
+    "kind": "number",
+    "expected": 0.6763
+  },
+  {
+    "id": 8,
+    "question": "What is the model's roc_auc on the held-out test set?",
+    "kind": "number",
+    "expected": 0.7799
+  },
+  {
+    "id": 9,
+    "question": "What is the model's pr_auc on the held-out test set?",
+    "kind": "number",
+    "expected": 0.7891
+  },
+  {
+    "id": 10,
+    "question": "What is the model's brier on the held-out test set?",
+    "kind": "number",
+    "expected": 0.2032
+  },
+  {
+    "id": 11,
+    "question": "Which model came second in cross-validation?",
+    "kind": "text",
+    "expected": "Baseline (majority)"
+  },
+  {
+    "id": 12,
+    "question": "What is the most important feature?",
+    "kind": "text",
+    "expected": "internet_service"
+  },
+  {
+    "id": 13,
+    "question": "What is the second most important feature?",
+    "kind": "text",
+    "expected": "tenure_months"
+  },
+  {
+    "id": 14,
+    "question": "What is the third most important feature?",
+    "kind": "text",
+    "expected": "contract"
+  },
+  {
+    "id": 15,
+    "question": "Was dataset-level data drift detected? Answer yes or no first.",
+    "kind": "yesno",
+    "expected": true
+  },
+  {
+    "id": 16,
+    "question": "Which drifted feature has the largest PSI?",
+    "kind": "text",
+    "expected": "signup_date"
+  },
+  {
+    "id": 17,
+    "question": "What is the PSI of the feature signup_date?",
+    "kind": "number",
+    "expected": 2.5101
+  },
+  {
+    "id": 18,
+    "question": "What is the PSI of the feature monthly_charges?",
+    "kind": "number",
+    "expected": 0.2352
+  },
+  {
+    "id": 19,
+    "question": "What is the PSI of the feature internet_service?",
+    "kind": "number",
+    "expected": 0.1734
+  },
+  {
+    "id": 20,
+    "question": "What is the PSI of the feature payment_method?",
+    "kind": "number",
+    "expected": 0.1581
+  },
+  {
+    "id": 21,
+    "question": "How many rows were in the current data used for the drift check?",
+    "kind": "number",
+    "expected": 1008
+  },
+  {
+    "id": 22,
+    "question": "What was the model's accuracy last year?",
+    "kind": "refusal",
+    "expected": null
+  },
+  {
+    "id": 23,
+    "question": "How much revenue did the model save the company?",
+    "kind": "refusal",
+    "expected": null
+  },
+  {
+    "id": 24,
+    "question": "What is the model's performance on the Adult Census dataset?",
+    "kind": "refusal",
+    "expected": null
+  }
+]
